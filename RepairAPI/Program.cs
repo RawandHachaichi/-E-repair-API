@@ -1,3 +1,7 @@
+using Microsoft.EntityFrameworkCore;
+using Repair.Business.Interfaces;
+using Repair.Business.Repository;
+using Repair.Database;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -7,6 +11,13 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+//
+builder.Services.AddDbContext<DatabaseContext>(
+options =>options.UseSqlServer(builder.Configuration.GetConnectionString("SqlServerConnStr")));
+
+
+// 
+builder.Services.AddScoped<IGouvernoratRepository, GouvernoratRepository>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
