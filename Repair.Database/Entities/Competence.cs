@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Repair.Database.Entities
 {
-    public class Competance
+    public class Competence
     {
         [Key]
         public Guid Id { get; set; }
@@ -15,7 +15,7 @@ namespace Repair.Database.Entities
         public string? Code { get; set; }
         public string CreePar { get; set; }
         public DateTime DateCreation { get; set; }
-        public List<ReparateurCompetance> ReparateurCompetances{ get; set; }
+        public List<ReparateurCompetence> ReparateurCompetences{ get; set; }
 
     }
 }

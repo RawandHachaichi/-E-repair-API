@@ -16,7 +16,7 @@ namespace Repair.Database.Entities
         public string Prenom { get; set; }
         public DateTime DateDeNaissance { get; set; }
         public string? Email { get; set; }
-        public string? Age { get; set; }
+        public int? Age { get; set; }
         public string MotDePasse { get; set; }
         public int NumeroTelephone1 { get; set; }
         public int? NumeroTelephone2 { get; set; }
@@ -28,7 +28,7 @@ namespace Repair.Database.Entities
         public DateTime DateCreation { get; set; }
         public Guid DelegationId { get; set; } //foreign Key
         public Delegation Delegation { get; set; }
-        public Collection<ReparateurCompetance> ReparateurCompetances { get; set; }
+        public Collection<ReparateurCompetence> ReparateurCompetances { get; set; }
 
         
         

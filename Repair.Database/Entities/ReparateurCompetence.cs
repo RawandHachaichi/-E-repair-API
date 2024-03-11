@@ -7,15 +7,15 @@ using System.Threading.Tasks;
 
 namespace Repair.Database.Entities
 {
-    public class ReparateurCompetance
+    public class ReparateurCompetence
     {
         [Key]
         public Guid Id { get; set; }
         public Guid UtilisateurId { get; set; }
         public Utilisateur Utilisateurs { get; set; }
 
-        public Guid CompetanceId { get; set; }
-        public Competance Competances { get; set; }
+        public Guid CompetenceId { get; set; }
+        public Competence Competences { get; set; }
 
     }
 }
