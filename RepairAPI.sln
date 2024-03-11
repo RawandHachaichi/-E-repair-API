@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RepairAPI", "RepairAPI\Repa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repair.Database", "Repair.Database\Repair.Database.csproj", "{7D68C110-2964-457E-881B-D62FD0BEA083}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repair.Business", "Repair.Business\Repair.Business.csproj", "{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repair.Business", "Repair.Business\Repair.Business.csproj", "{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
