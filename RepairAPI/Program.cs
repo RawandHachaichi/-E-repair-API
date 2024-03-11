@@ -18,7 +18,15 @@ options =>options.UseSqlServer(builder.Configuration.GetConnectionString("SqlSer
 
 // 
 builder.Services.AddScoped<IGouvernoratRepository, GouvernoratRepository>();
+builder.Services.AddScoped<IDelegationRepository, DelegationRepository>();
+builder.Services.AddScoped<ICompetenceRepository, CompetenceRepository>();
+builder.Services.AddScoped<IUtilisateurRepository, UtilisateurRepository>();
+
+
 var app = builder.Build();
+
+
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

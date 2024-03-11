@@ -15,6 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Repair.Business\Repair.Business.csproj" />
     <ProjectReference Include="..\Repair.Database\Repair.Database.csproj" />
   </ItemGroup>
 
