@@ -26,7 +26,6 @@ namespace Repair.Business.Models
         public string? CreePar { get; set; }
         public DateTime DateCreation { get; set; }
         public Guid DelegationId { get; set; } //foreign Key
-        public Delegation Delegation { get; set; }
         public Collection<ReparateurCompetence> ReparateurCompetences { get; set; }
 
 

@@ -20,7 +20,7 @@ namespace Repair.Business.Repository
                 {
 
                     Id = x.Id,
-                    Name = x.Nom,
+                    Nom = x.Nom,
                     Code = x.Code,
                 }).ToList();
             }
@@ -30,7 +30,7 @@ namespace Repair.Business.Repository
                 return _databaseContext.Delegations.Where(x => x.GouvernoratId == gouvId).Select(x => new DelegationModel()
                 {
                     Id = x.Id,
-                    Name = x.Nom,
+                    Nom = x.Nom,
                     Code = x.Code,
                 }).ToList();
             }

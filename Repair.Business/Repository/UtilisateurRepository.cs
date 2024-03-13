@@ -31,7 +31,7 @@ namespace Repair.Business.Repository
                     NumMaison = user.NumMaison,
                     Rue = user.Rue,
                     Age = user.Age,
-                    DelegationId = user.DelegationId
+                    
                     
 
                 };

@@ -24,7 +24,7 @@ namespace Repair.Business.Repository
             return _databaseContext.Gouvernorats.Select(x => new GouvernoratModel()
             {
                 Id = x.Id,
-                Name = x.Nom,
+                Nom = x.Nom,
                 Code = x.Code,
             }).ToList();
         }
