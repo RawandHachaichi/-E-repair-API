@@ -13,8 +13,8 @@ namespace RepairAPI.Controllers
         {
             _ICompetenceRepository = ICompetenceRepository;
         }
-      
-        public CompetenceController() { }
+
+     
         [HttpGet]
         public List<CompetenceModel> GetAllComp()
         {

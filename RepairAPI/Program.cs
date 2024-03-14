@@ -3,6 +3,7 @@ using Repair.Business.Interfaces;
 using Repair.Business.Repository;
 using Repair.Database;
 var builder = WebApplication.CreateBuilder(args);
+//var MyPolicy= "MyPolicy";
 
 // Add services to the container.
 
@@ -25,6 +26,19 @@ builder.Services.AddScoped<IUtilisateurRepository, UtilisateurRepository>();
 
 var app = builder.Build();
 
+//enable Cors
+/*builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: MyPolicy,
+        builder =>
+        {
+            builder.WithOrigins("http://localhost:4200")
+            .AllowAnyMethod()
+            .AllowAnyHeader()
+            .AllowCredentials();
+        });
+});*/
+
 
 
 
@@ -34,6 +48,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+//app.UseCors(MyPolicy);
 
 app.UseHttpsRedirection();
 

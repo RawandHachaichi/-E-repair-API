@@ -18,7 +18,7 @@ namespace RepairAPI.Controllers
             _IUtilisateurRepository = UtilisateurRepository;
         }
        
-        [HttpPost(Name = "Utilisateur/register")]
+        [HttpPost]
         public Task<String> Register(UtilisateurModel user)
         {
             return _IUtilisateurRepository.AddUser(user);
