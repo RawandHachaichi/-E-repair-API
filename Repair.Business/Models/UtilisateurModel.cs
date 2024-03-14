@@ -15,7 +15,7 @@ namespace Repair.Business.Models
         public string Nom { get; set; }
         public string Prenom { get; set; }
         public string Email { get; set; }
-        public string MotDePasee { get; set; }
+        public string MotDePasse { get; set; }
         public int NumTelephone1 { get; set; }
         public int? Age { get; set; }
         public int? NumTelephone2 { get; set; }

@@ -12,6 +12,7 @@ namespace Repair.Business.Interfaces
     public interface IUtilisateurRepository
     {
         public Task<string> AddUser(UtilisateurModel user);
+        public Utilisateur Login(string Email, string Mdp);
     }
 }
             
