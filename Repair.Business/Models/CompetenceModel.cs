@@ -14,6 +14,6 @@ namespace Repair.Business.Models
         public string? Code { get; set; }
         public string CreePar { get; set; }
         public DateTime DateCreation { get; set; }
-        public List<ReparateurCompetence> ReparateurCompetences { get; set; }
+       
     }
 }

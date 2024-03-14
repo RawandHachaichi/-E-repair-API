@@ -12,7 +12,6 @@ namespace Repair.Business.Models
         public Guid Id { get; set; }
         public string Nom { get; set; }
         public string? Code { get; set; }
-        public Guid GouvernoratId { get; set; }//foreign key
-        public List<Utilisateur> Utilisateur { get; set; }
+       
     }
 }
