@@ -24,7 +24,17 @@ namespace RepairAPI.Controllers
             return _IUtilisateurRepository.AddUser(user);
 
         }
+        [HttpGet("{email}/{mdp}")]
+        public ActionResult Login(string Email, string Mdp)
+        {
+          // Appel de la méthode de login du repository utilisateur pour tenter de s'authentifier.
+            var res = _IUtilisateurRepository.Login(Email, Mdp);
+
+            // Retourne une réponse OK avec le résultat de l'authentification
+            return Ok(res);
+        }
 
 
     }
+
 }
