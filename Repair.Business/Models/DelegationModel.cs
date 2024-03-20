@@ -12,6 +12,6 @@ namespace Repair.Business.Models
         public Guid Id { get; set; }
         public string Nom { get; set; }
         public string? Code { get; set; }
-       
+      
     }
 }
