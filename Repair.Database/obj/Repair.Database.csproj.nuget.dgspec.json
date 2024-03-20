@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LENOVO\\Source\\Repos\\E-repair-API\\RepairAPI\\Repair.Database\\Repair.Database.csproj": {}
+    "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Database\\Repair.Database.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LENOVO\\Source\\Repos\\E-repair-API\\RepairAPI\\Repair.Database\\Repair.Database.csproj": {
+    "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Database\\Repair.Database.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LENOVO\\Source\\Repos\\E-repair-API\\RepairAPI\\Repair.Database\\Repair.Database.csproj",
+        "projectUniqueName": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Database\\Repair.Database.csproj",
         "projectName": "Repair.Database",
-        "projectPath": "C:\\Users\\LENOVO\\Source\\Repos\\E-repair-API\\RepairAPI\\Repair.Database\\Repair.Database.csproj",
+        "projectPath": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Database\\Repair.Database.csproj",
         "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LENOVO\\Source\\Repos\\E-repair-API\\RepairAPI\\Repair.Database\\obj\\",
+        "outputPath": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Database\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,9 +45,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "EntityFramework": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[6.4.4, )"
+              "version": "[6.0.9, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
@@ -72,6 +72,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.9, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[7.4.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.4.1, )"
             }
           },
           "imports": [
