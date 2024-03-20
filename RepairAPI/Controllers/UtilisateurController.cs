@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Repair.Business.Interfaces;
@@ -18,13 +19,15 @@ namespace RepairAPI.Controllers
             _IUtilisateurRepository = UtilisateurRepository;
         }
        
-        [HttpPost]
-        public Task<String> Register(UtilisateurModel user)
+        [HttpPost("/register")]
+        public Utilisateur Register(UtilisateurModel user)
         {
             return _IUtilisateurRepository.AddUser(user);
 
         }
-        [HttpGet("{email}/{mdp}")]
+
+        [Authorize] 
+        [HttpPost("/login/{Email};{mdp}")]
         public ActionResult Login(string Email, string Mdp)
         {
           // Appel de la méthode de login du repository utilisateur pour tenter de s'authentifier.

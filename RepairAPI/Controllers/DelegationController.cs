@@ -19,7 +19,8 @@ namespace RepairAPI.Controllers
         }
 
 
-        [HttpGet(Name = "GetDelagations/{id}")]
+        [HttpGet]
+        [Route("/Delegation/{id}")]
         public List<DelegationModel> GetDelegations(Guid?id)
         {
             return _IDelegationtRepository.GetDelegationByGouvId(id);

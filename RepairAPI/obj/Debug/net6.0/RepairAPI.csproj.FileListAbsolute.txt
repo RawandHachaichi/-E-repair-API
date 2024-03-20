@@ -77,3 +77,5 @@ C:\Users\LENOVO\source\repos\E-repair-API\RepairAPI\RepairAPI\bin\Debug\net6.0\R
 C:\Users\LENOVO\source\repos\E-repair-API\RepairAPI\RepairAPI\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
 C:\Users\LENOVO\source\repos\E-repair-API\RepairAPI\RepairAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\LENOVO\source\repos\E-repair-API\RepairAPI\RepairAPI\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\LENOVO\source\repos\E-repair-API\RepairAPI\RepairAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\LENOVO\source\repos\E-repair-API\RepairAPI\RepairAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
