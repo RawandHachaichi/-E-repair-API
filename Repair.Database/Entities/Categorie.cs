@@ -8,16 +8,14 @@ using System.Threading.Tasks;
 
 namespace Repair.Database.Entities
 {
-    public class Competence
+    public class Categorie
     {
         [Key]
         public Guid Id { get; set; }
         public string Nom { get; set; }
-        public string? Code { get; set; }
+        public string code { get; set; }
         public string CreePar { get; set; }
         public DateTime DateCreation { get; set; }
-        public List<ReparateurCompetence> ReparateurCompetences{ get; set; }
         public Collection<CategorieComp> CategorieComp { get; set; }
-
     }
 }

@@ -12,6 +12,15 @@ namespace Repair.Database
         public DbSet<Competence> Competences { get; set; }
         public DbSet<Utilisateur> Utilisateurs { get; set; }
         public DbSet<ReparateurCompetence> ReparateurCompetences { get; set; }
+        public DbSet<Categorie> Categories { get; set; }
+        public DbSet<CategorieComp> CategorieComp { get; set; }
+        public DbSet<TypeDomage> TypeDomage { get; set; }
+        public DbSet<TypeBatiment> TypeBatiment { get; set; }
+        public DbSet<Cause> Causes{ get; set; }
+        public DbSet<Localisation> Localisations { get; set; }
+        public DbSet<Materiel> Materiels { get; set; }
+        public DbSet<Objet> Objets { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Utilisateur>()
@@ -26,7 +35,7 @@ namespace Repair.Database
                .HasForeignKey(d => d.GouvernoratId)
                .OnDelete(DeleteBehavior.Restrict);
 
-          
+
 
             modelBuilder.Entity<ReparateurCompetence>()
                .HasOne(R => R.Utilisateurs)
@@ -39,6 +48,20 @@ namespace Repair.Database
              .WithMany(U => U.ReparateurCompetences)
              .HasForeignKey(R => R.CompetenceId)
              .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<CategorieComp>()
+                 .HasOne(C => C.Competences)
+                 .WithMany(cc => cc.CategorieComp)
+                 .HasForeignKey(E => E.CompetenceId)
+                  .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<CategorieComp>()
+                 .HasOne(C => C.Categories)
+                 .WithMany(cc => cc.CategorieComp)
+                 .HasForeignKey(E => E.CategorieId)
+                  .OnDelete(DeleteBehavior.Restrict);
+
+
 
 
         }

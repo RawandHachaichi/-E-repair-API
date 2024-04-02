@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 
 namespace Repair.Business.Interfaces
 {
-    public interface IGouvernoratRepository
+    public interface IObjetRepository
     {
-       public List<GouvernoratModel> GetGouvernoratList();
+        public List<ObjetModel> GetObjet();
+
     }
 }

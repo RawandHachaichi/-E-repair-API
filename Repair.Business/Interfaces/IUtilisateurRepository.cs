@@ -13,6 +13,8 @@ namespace Repair.Business.Interfaces
     {
         public  Utilisateur AddUser(UtilisateurModel User);
         public Utilisateur Login(string Email, string Mdp);
+       
+
     }
 }
             

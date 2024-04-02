@@ -7,7 +7,7 @@ namespace Repair.Business.Interfaces
 {
     public interface IDelegationRepository
     {
-        List<DelegationModel> GetDelegationByGouvId(Guid? id);
+         public List<DelegationModel> GetDelegationByGouvId(Guid? id);
       
     }
 }

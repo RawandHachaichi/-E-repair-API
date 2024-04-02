@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
@@ -8,16 +7,12 @@ using System.Threading.Tasks;
 
 namespace Repair.Database.Entities
 {
-    public class Competence
+    public class TypeDomage
     {
         [Key]
         public Guid Id { get; set; }
         public string Nom { get; set; }
-        public string? Code { get; set; }
         public string CreePar { get; set; }
-        public DateTime DateCreation { get; set; }
-        public List<ReparateurCompetence> ReparateurCompetences{ get; set; }
-        public Collection<CategorieComp> CategorieComp { get; set; }
-
+        public DateTime DateCreation { get; set; } = DateTime.Now;
     }
 }

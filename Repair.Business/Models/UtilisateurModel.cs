@@ -21,7 +21,7 @@ namespace Repair.Business.Models
         public int? NumTelephone2 { get; set; }
         public string Role { get; set; }
         public DelegationModel Delegations { get; set; }
-        public List<Guid>? Competence { get; set; }
+        public List<Guid>? Competences { get; set; }
         public GouvernoratModel Gouvernorats { get; set; }
 
         public string Rue { get; set; }

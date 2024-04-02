@@ -9,9 +9,9 @@ namespace RepairAPI.Controllers
     public class CompetenceController : ControllerBase
     {
         private static ICompetenceRepository _ICompetenceRepository;
-        public CompetenceController( ICompetenceRepository ICompetenceRepository)
+        public CompetenceController( ICompetenceRepository CompetenceRepository)
         {
-            _ICompetenceRepository = ICompetenceRepository;
+            _ICompetenceRepository = CompetenceRepository;
         }
 
      

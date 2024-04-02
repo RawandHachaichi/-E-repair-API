@@ -1,16 +1,10 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
-using Microsoft.Extensions.Configuration;
-using Microsoft.IdentityModel.Tokens;
 using Repair.Business.Interfaces;
 using Repair.Business.Models;
 using Repair.Database;
 using Repair.Database.Entities;
-using System.IdentityModel.Tokens.Jwt;
-using System.Security.Claims;
-using System.Security.Principal;
-using System.Text;
+
 
 namespace Repair.Business.Repository
 {
@@ -27,7 +21,7 @@ namespace Repair.Business.Repository
         public Utilisateur AddUser(UtilisateurModel User)
         {
             try
-            { 
+            {
 
                 // Hash the password
                 var passwordHasher = new PasswordHasher<Utilisateur>();
@@ -44,21 +38,21 @@ namespace Repair.Business.Repository
                     NumMaison = User.NumMaison,
                     Rue = User.Rue,
                     Age = User.Age,
-                    DelegationId=User.Delegations.Id,
-                    NumeroTelephone1=User.NumTelephone1,
+                    DelegationId = User.Delegations.Id,
+                    NumeroTelephone1 = User.NumTelephone1,
                     NumeroTelephone2 = User.NumTelephone2,
-                    CreePar= User.Email,
-                    DateCreation=DateTime.Now,
+                    CreePar = User.Email,
+                    DateCreation = DateTime.Now,
                 };
-                if(User.Role== "reparateur")
+                if (User.Role == "reparateur")
                 {
-                    foreach(var compId in User.Competences)
+                    foreach (var compId in User.Competences)
                     {
                         var comp = new ReparateurCompetence
                         {
                             CompetenceId = compId,
                             UtilisateurId = newUser.Id,
-                            
+
                         };
                         _databaseContext.ReparateurCompetences.Add(comp);
 
@@ -143,7 +137,6 @@ namespace Repair.Business.Repository
 
 
 
+
     }
-
-
 }

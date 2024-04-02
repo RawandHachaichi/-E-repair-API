@@ -13,9 +13,9 @@ namespace RepairAPI.Controllers
 
         private static IDelegationRepository _IDelegationtRepository;
 
-        public DelegationController(IDelegationRepository delegationtRepository)
+        public DelegationController(IDelegationRepository DelegationtRepository)
         {
-            _IDelegationtRepository = delegationtRepository;
+            _IDelegationtRepository = DelegationtRepository;
         }
 
 
