@@ -20,6 +20,10 @@ namespace Repair.Database
         public DbSet<Localisation> Localisations { get; set; }
         public DbSet<Materiel> Materiels { get; set; }
         public DbSet<Objet> Objets { get; set; }
+        public DbSet<Dossier> Dossiers { get; set; }
+        public DbSet<TypeRendezVous> TypeRendezVous { get; set; }
+
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

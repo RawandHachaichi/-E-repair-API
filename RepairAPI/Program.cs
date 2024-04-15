@@ -76,6 +76,8 @@ builder.Services.AddScoped<IMaterielRepository, MaterielRepository>();
 builder.Services.AddScoped<ITypeDomageRepository, TypeDomageRepository>();
 builder.Services.AddScoped<ILocalisationRepository,LocalisationRepository>();
 builder.Services.AddScoped<ITypeBatimentRepository, TypeBatimentRepository>();
+builder.Services.AddScoped<IDossierRepository, DossierRepository>();
+builder.Services.AddScoped<ITypeRendezVousRepository, TypeRendezVousRepository>();
 
 
 

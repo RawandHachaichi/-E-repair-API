@@ -7,10 +7,13 @@ using System.Threading.Tasks;
 
 namespace Repair.Database.Entities
 {
-    public class Reclamation
+    public class DossierStatus
     {
         [Key]
-        public int Id { get; set; }
+        public Guid Id { get; set; }
         public string Nom { get; set; }
+        public string code { get; set; }
+        public string CreePar { get; set; }
+        public DateTime DateCreation { get; set; } = DateTime.Now;
     }
 }

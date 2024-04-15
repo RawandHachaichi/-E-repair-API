@@ -18,7 +18,7 @@ namespace Repair.Database.Entities
         public string? Email { get; set; }
         public int? Age { get; set; }
         public string MotDePasse { get; set; }
-        public int NumeroTelephone1 { get; set; }
+        public int? NumeroTelephone1 { get; set; }
         public int? NumeroTelephone2 { get; set; }
         public string Role { get; set; }
 

@@ -9,7 +9,7 @@ namespace Repair.Business.Interfaces
 {
     public interface ICompetenceRepository
     {
-        List<CompetenceModel> GetCompetenceList();
+        public List<CompetenceModel> GetCompetenceList();
         
     }
 }

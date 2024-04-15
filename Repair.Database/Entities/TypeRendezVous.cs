@@ -7,14 +7,13 @@ using System.Threading.Tasks;
 
 namespace Repair.Database.Entities
 {
-    public class Event
+    public class TypeRendezVous
     {
         [Key]
         public Guid Id { get; set; }
-        public DateTime? Start { get; set; }
-        public DateTime? End { get; set; }
-        public string? Title { get; set; }
-        public string? Description { get; set; }
-        public Guid? UserId { get; set; }
+        public string Nom { get; set; }
+        public string code { get; set; }
+        public string CreePar { get; set; }
+        public DateTime DateCreation { get; set; }
     }
 }
