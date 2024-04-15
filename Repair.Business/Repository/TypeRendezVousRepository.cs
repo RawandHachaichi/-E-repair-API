@@ -9,21 +9,19 @@ using System.Threading.Tasks;
 
 namespace Repair.Business.Repository
 {
-    public class TypeBatimentRepository : ITypeBatimentRepository
+    public class TypeRendezVousRepository : ITypeRendezVousRepository
     {
         private static DatabaseContext _databaseContext;
-        public TypeBatimentRepository(DatabaseContext databaseContext)
+        public TypeRendezVousRepository(DatabaseContext databaseContext)
         {
             _databaseContext = databaseContext;
         }
-
-        public List<TypeBatimentModel> GetBatimentList()
+        public List<TypeRendezVousModel> GetType()
         {
-            return _databaseContext.TypeBatiment.Select(x => new TypeBatimentModel()
+            return _databaseContext.TypeRendezVous.Select(x => new TypeRendezVousModel()
             {
                 Id = x.Id,
-                Nom = x.Nom,
-                
+                Nom = x.Nom
             }).ToList();
         }
     }

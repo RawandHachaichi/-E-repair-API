@@ -19,12 +19,14 @@ namespace Repair.Business.Repository
 
         public List<CauseModel> GetCause()
         {
-            return _databaseContext.Causes.Select(x => new CauseModel()
+            var resultat= _databaseContext.Causes.Select(x => new CauseModel()
             {
                 Id = x.Id,
                 Nom = x.Nom,
-                
+
             }).ToList();
+            return resultat;
+
         }
     }
 }
