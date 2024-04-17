@@ -18,11 +18,11 @@ namespace Repair.Database
         public DbSet<TypeBatiment> TypeBatiment { get; set; }
         public DbSet<Cause> Causes{ get; set; }
         public DbSet<Localisation> Localisations { get; set; }
-        public DbSet<Materiel> Materiels { get; set; }
         public DbSet<Objet> Objets { get; set; }
         public DbSet<Dossier> Dossiers { get; set; }
         public DbSet<TypeRendezVous> TypeRendezVous { get; set; }
-
+        public DbSet<DossierStatus> DossierStatus { get; set; }
+        public DbSet<Matiere> Matiere { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

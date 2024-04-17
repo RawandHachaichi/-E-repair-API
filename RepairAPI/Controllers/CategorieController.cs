@@ -17,7 +17,7 @@ namespace RepairAPI.Controllers
             _ICategorieRepository = CategorieRepository;
         }
         [HttpGet]
-        public List<CategorieModel> GetCategoryList()
+        public List<ItemModel> GetCategoryList()
         {
             return _ICategorieRepository.GetCategorie();
 

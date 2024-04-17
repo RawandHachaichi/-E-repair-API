@@ -9,7 +9,7 @@ namespace Repair.Business.Interfaces
 {
     public interface ITypeDomageRepository
     {
-        public List<TypeDomageModel> GetDomageList();
+        public List<ItemModel> GetDomageList();
 
     }
 }

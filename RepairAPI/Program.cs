@@ -72,13 +72,13 @@ builder.Services.AddScoped<IUtilisateurRepository, UtilisateurRepository>();
 builder.Services.AddScoped<ICategorieRepository, CategorieRepository>();
 builder.Services.AddScoped<ICauseRepository, CauseRepository>();
 builder.Services.AddScoped<IObjetRepository, ObjetRepository>();
-builder.Services.AddScoped<IMaterielRepository, MaterielRepository>();
+builder.Services.AddScoped<IMatiereRepository, MatiereRepository>();
 builder.Services.AddScoped<ITypeDomageRepository, TypeDomageRepository>();
 builder.Services.AddScoped<ILocalisationRepository,LocalisationRepository>();
 builder.Services.AddScoped<ITypeBatimentRepository, TypeBatimentRepository>();
 builder.Services.AddScoped<IDossierRepository, DossierRepository>();
 builder.Services.AddScoped<ITypeRendezVousRepository, TypeRendezVousRepository>();
-
+builder.Services.AddScoped<IDossierStatusRepository, DossierStatusRepository>();
 
 
 

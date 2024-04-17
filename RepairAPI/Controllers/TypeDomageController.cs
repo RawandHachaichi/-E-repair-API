@@ -16,7 +16,7 @@ namespace RepairAPI.Controllers
             _ITypeDomageRepository = TypeDomageRepository;
         }
         [HttpGet]
-        public List<TypeDomageModel> GetDomageList()
+        public List<ItemModel> GetDomageList()
         {
             return _ITypeDomageRepository.GetDomageList();
         }

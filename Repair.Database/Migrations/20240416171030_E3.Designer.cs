@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Repair.Database;
 
@@ -11,9 +12,10 @@ using Repair.Database;
 namespace Repair.Database.Migrations
 {
     [DbContext(typeof(DatabaseContext))]
-    partial class DatabaseContextModelSnapshot : ModelSnapshot
+    [Migration("20240416171030_E3")]
+    partial class E3
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -168,8 +170,8 @@ namespace Repair.Database.Migrations
                     b.Property<DateTime?>("CreatedDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("Description")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<DateTime?>("DateIncident")
+                        .HasColumnType("datetime2");
 
                     b.Property<int?>("DossierNumber")
                         .HasColumnType("int");
@@ -189,10 +191,10 @@ namespace Repair.Database.Migrations
                     b.Property<Guid?>("MaterielId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<Guid>("MatiereId")
+                    b.Property<Guid?>("ObjetId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<Guid?>("ObjetId")
+                    b.Property<Guid?>("RendezVousId")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<Guid?>("TypeBatimentId")
@@ -200,9 +202,6 @@ namespace Repair.Database.Migrations
 
                     b.Property<Guid?>("TypeDomageId")
                         .HasColumnType("uniqueidentifier");
-
-                    b.Property<string>("TypeRDV")
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<Guid>("TypeRendezVousId")
                         .HasColumnType("uniqueidentifier");
@@ -220,7 +219,7 @@ namespace Repair.Database.Migrations
 
                     b.HasIndex("LocalisationId");
 
-                    b.HasIndex("MatiereId");
+                    b.HasIndex("MaterielId");
 
                     b.HasIndex("ObjetId");
 
@@ -308,7 +307,7 @@ namespace Repair.Database.Migrations
                     b.ToTable("Localisations");
                 });
 
-            modelBuilder.Entity("Repair.Database.Entities.Matiere", b =>
+            modelBuilder.Entity("Repair.Database.Entities.Materiel", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -327,7 +326,7 @@ namespace Repair.Database.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Matiere");
+                    b.ToTable("Materiels");
                 });
 
             modelBuilder.Entity("Repair.Database.Entities.Objet", b =>
@@ -551,11 +550,9 @@ namespace Repair.Database.Migrations
                         .WithMany()
                         .HasForeignKey("LocalisationId");
 
-                    b.HasOne("Repair.Database.Entities.Matiere", "Matiere")
+                    b.HasOne("Repair.Database.Entities.Materiel", "Materiel")
                         .WithMany()
-                        .HasForeignKey("MatiereId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("MaterielId");
 
                     b.HasOne("Repair.Database.Entities.Objet", "Objet")
                         .WithMany()
@@ -587,7 +584,7 @@ namespace Repair.Database.Migrations
 
                     b.Navigation("Localisation");
 
-                    b.Navigation("Matiere");
+                    b.Navigation("Materiel");
 
                     b.Navigation("Objet");
 

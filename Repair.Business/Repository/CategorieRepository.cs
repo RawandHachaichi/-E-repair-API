@@ -17,9 +17,9 @@ namespace Repair.Business.Repository
         {
             _databaseContext = databaseContext;
         }
-        public List<CategorieModel> GetCategorie()
+        public List<ItemModel> GetCategorie()
         {
-            return _databaseContext.Categories.Select(x => new CategorieModel()
+            return _databaseContext.Categories.Select(x => new ItemModel()
             {
                 Id = x.Id,
                 Nom = x.Nom    

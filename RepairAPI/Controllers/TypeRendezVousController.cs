@@ -16,7 +16,7 @@ namespace RepairAPI.Controllers
         }
 
         [HttpGet]
-        public List<TypeRendezVousModel> GetType()
+        public List<ItemModel> GetType()
         {
             return _ITypeRendezVousRepository.GetType();
         }

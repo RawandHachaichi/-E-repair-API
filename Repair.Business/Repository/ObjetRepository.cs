@@ -17,9 +17,9 @@ namespace Repair.Business.Repository
             _databaseContext = databaseContext;
         }
 
-        public List<ObjetModel> GetObjet()
+        public List<ItemModel> GetObjet()
         {
-            return _databaseContext.Objets.Select(x => new ObjetModel()
+            return _databaseContext.Objets.Select(x => new ItemModel()
             {
                 Id = x.Id,
                 Nom = x.Nom,

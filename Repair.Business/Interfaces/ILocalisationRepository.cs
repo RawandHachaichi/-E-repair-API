@@ -9,7 +9,7 @@ namespace Repair.Business.Interfaces
 {
     public interface ILocalisationRepository
     {
-        public List<LocalisationModel> GetLocalisation();
+        public List<ItemModel> GetLocalisation();
 
     }
 }

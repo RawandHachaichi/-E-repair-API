@@ -9,6 +9,6 @@ namespace Repair.Business.Interfaces
 {
     public interface ICauseRepository
     {
-        public List<CauseModel> GetCause();
+        public List<ItemModel> GetCause();
     }
 }

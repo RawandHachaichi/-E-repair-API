@@ -9,7 +9,7 @@ namespace Repair.Business.Interfaces
 {
     public interface ITypeBatimentRepository
     {
-        public List<TypeBatimentModel> GetBatimentList();
+        public List<ItemModel> GetBatimentList();
 
     }
 }

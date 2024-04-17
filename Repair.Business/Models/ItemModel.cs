@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace Repair.Business.Models
 {
-    public class TypeDomageModel
+    public class ItemModel
     {
         public Guid Id { get; set; }
         public string Nom { get; set; }
-        public string? Code { get; set; }
         public string? CreePar { get; set; }
-        public DateTime? DateCreation { get; set; } = DateTime.Now;
+        public DateTime? DateCreation { get; set; }
     }
 }

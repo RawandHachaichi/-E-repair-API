@@ -17,9 +17,9 @@ namespace Repair.Business.Repository
             _databaseContext = databaseContext;
         }
 
-        public List<TypeBatimentModel> GetBatimentList()
+        public List<ItemModel> GetBatimentList()
         {
-            return _databaseContext.TypeBatiment.Select(x => new TypeBatimentModel()
+            return _databaseContext.TypeBatiment.Select(x => new ItemModel()
             {
                 Id = x.Id,
                 Nom = x.Nom,

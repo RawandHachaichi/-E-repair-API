@@ -17,7 +17,7 @@ namespace RepairAPI.Controllers
         }
 
         [HttpGet]
-        public List<LocalisationModel> GetLocalisationList()
+        public List<ItemModel> GetLocalisationList()
         {
             return _ILocalisationRepository.GetLocalisation();
         }

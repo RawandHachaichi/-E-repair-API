@@ -29,13 +29,16 @@ namespace Repair.Database.Entities
         public Guid? TypeDomageId { get; set; }
         public TypeDomage TypeDomage { get; set; }
         public Guid? MaterielId { get; set; }
-        public Materiel Materiel { get; set; }
+        public Matiere Matiere{ get; set; }
         public Guid? LocalisationId { get; set; }
         public Localisation Localisation { get; set; }
-        public Guid? RendezVousId { get; set; }
-        public TypeRendezVous TypeRendezVous { get; set; }
+
         public bool? IsEmergency { get; set; }
-        public DateTime? DateIncident { get; set; }
+        public string? Description { get; set; }
+        // public DateTime? DateIncident { get; set; }
+
+        public string? TypeRDV { get; set; }
+        public TypeRendezVous TypeRendezVous{ get; set; }
         public bool? Active { get; set; } = true;
         public DateTime? CreatedDate { get; set; } = DateTime.Now;
         public Guid? LastModificationBy { get; set; }

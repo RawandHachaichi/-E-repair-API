@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace Repair.Business.Interfaces
 {
-    public interface IMaterielRepository
+    public interface IMatiereRepository
     {
-        public List<MaterielModel> GetMateriel();
+        public List<ItemModel> GetMatiere();
 
     }
 }

@@ -9,6 +9,6 @@ namespace Repair.Business.Interfaces
 {
     public interface ITypeRendezVousRepository
     {
-        public List<TypeRendezVousModel> GetType();
+        public List<ItemModel> GetType();
     }
 }

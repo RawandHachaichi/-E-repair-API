@@ -17,7 +17,7 @@ namespace RepairAPI.Controllers
             _ICauseRepository = CauseRepository;
         }
         [HttpGet]
-        public List<CauseModel> GetCauseList()
+        public List<ItemModel> GetCauseList()
         {
             return _ICauseRepository.GetCause();
         }

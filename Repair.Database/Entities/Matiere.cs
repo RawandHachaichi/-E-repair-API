@@ -1,16 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Repair.Business.Models
+namespace Repair.Database.Entities
 {
-    public class CategorieModel
+    public class Matiere
     {
+        [Key]
         public Guid Id { get; set; }
         public string Nom { get; set; }
         public string CreePar { get; set; }
-        public DateTime DateCreation { get; set; }= DateTime.Now;
+        public DateTime DateCreation { get; set; }
     }
 }

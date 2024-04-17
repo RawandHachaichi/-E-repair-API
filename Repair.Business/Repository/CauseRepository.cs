@@ -17,9 +17,9 @@ namespace Repair.Business.Repository
             _databaseContext = databaseContext;
         }
 
-        public List<CauseModel> GetCause()
+        public List<ItemModel> GetCause()
         {
-            var resultat= _databaseContext.Causes.Select(x => new CauseModel()
+            var resultat= _databaseContext.Causes.Select(x => new ItemModel()
             {
                 Id = x.Id,
                 Nom = x.Nom,

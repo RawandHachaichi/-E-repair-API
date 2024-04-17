@@ -22,30 +22,28 @@ namespace Repair.Business.Repository
 
        
 
-        public Dossier AddDossier(DossierModel Dossier)
+        public Dossier AddDossier(ReclamationModel Dossier)
         {
-            var utilisateur = _databaseContext.Utilisateurs.FirstOrDefault(u => u.Email == Dossier.CreatedBy);
-
+            // var utilisateur = _databaseContext.Utilisateurs.FirstOrDefault(u => u.Email == Dossier.CreatedBy);
+            var statusId = _databaseContext.DossierStatus.FirstOrDefault(x => x.code == "").Id ;
             var newDossier = new Dossier()
             {
 
-                Id = Dossier.Id,
+                Id = Guid.NewGuid(),
                 UtilisateurId = Dossier.UtilisateurId,
-                IsEmergency = Dossier.IsEmergency,
-                CategorieId = Dossier.CategorieId,
-                CauseId = Dossier.CauseId,
-                DossierStatusId = Dossier.DossierStatusId,
-                LocalisationId = Dossier.LocalisationId,
-                MaterielId = Dossier.MaterielId,
-                ObjetId = Dossier.ObjetId,
-                TypeBatimentId = Dossier.TypeBatimentId,
-                TypeDomageId = Dossier.TypeDomageId,
-                RendezVousId = Dossier.RendezVousId,
-                DossierNumber = Dossier.DossierNumber,
-                DateIncident = Dossier.DateIncident,
-                CreatedDate = Dossier.CreatedDate,
-                LastModificationBy = Dossier.LastModificationBy,
-                CreatedBy = utilisateur.Email,
+                IsEmergency = Dossier.Damage.IsEmergency,
+                CategorieId = Dossier.Categorie.Id,
+                CauseId = Dossier.Damage.Cause.Id,
+                DossierStatusId = statusId,
+                LocalisationId = Dossier.Damage.Localisation.Id,
+                MaterielId = Dossier.Damage.Localisation.Id,
+                ObjetId = Dossier.Damage.Objets.Id,
+                TypeBatimentId = Dossier.Damage.BuildingType.Id,
+                TypeDomageId = Dossier.Damage.TypeDomage.Id,
+                Description=Dossier.Damage.Description,
+                TypeRDV = Dossier.ChoixReparateur.RendezVous.Nom,
+                CreatedDate =DateTime.Now,
+                CreatedBy = Dossier.Email,
 
 
             };
@@ -74,8 +72,7 @@ namespace Repair.Business.Repository
                 TypeBatimentId = x.TypeBatimentId,
                 TypeDomageId = x.TypeDomageId,
                 DossierNumber = x.DossierNumber,
-                RendezVousId = x.RendezVousId,
-                DateIncident = x.DateIncident,
+               
                 CreatedDate = x.CreatedDate,
                 LastModificationBy = x.LastModificationBy,
                 CreatedBy = x.Utilisateur.Email,

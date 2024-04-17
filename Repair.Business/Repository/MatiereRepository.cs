@@ -9,17 +9,17 @@ using System.Threading.Tasks;
 
 namespace Repair.Business.Repository
 {
-    public class MaterielRepository : IMaterielRepository
+    public class MatiereRepository : IMatiereRepository
     {
         private static DatabaseContext _databaseContext;
-        public MaterielRepository(DatabaseContext databaseContext)
+        public MatiereRepository(DatabaseContext databaseContext)
         {
             _databaseContext = databaseContext;
         }
 
-        public List<MaterielModel> GetMateriel()
+        public List<ItemModel> GetMatiere()
         {
-            return _databaseContext.Materiels.Select(x => new MaterielModel()
+            return _databaseContext.Matiere.Select(x => new ItemModel()
             {
                 Id = x.Id,
                 Nom = x.Nom,

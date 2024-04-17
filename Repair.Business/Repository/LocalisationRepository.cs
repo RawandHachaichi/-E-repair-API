@@ -17,9 +17,9 @@ namespace Repair.Business.Repository
             _databaseContext = databaseContext;
         }
 
-        public List<LocalisationModel> GetLocalisation()
+        public List<ItemModel> GetLocalisation()
         {
-            return _databaseContext.Localisations.Select(x => new LocalisationModel()
+            return _databaseContext.Localisations.Select(x => new ItemModel()
             {
                 Id = x.Id,
                 Nom = x.Nom,

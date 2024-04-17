@@ -16,7 +16,7 @@ namespace RepairAPI.Controllers
             _ITypeBatimentRepository = TypeBatimentRepository;
         }
         [HttpGet]
-        public List<TypeBatimentModel> GetBatimentList()
+        public List<ItemModel> GetBatimentList()
         {
             return _ITypeBatimentRepository.GetBatimentList();
         }

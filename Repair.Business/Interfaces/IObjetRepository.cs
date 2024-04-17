@@ -9,7 +9,7 @@ namespace Repair.Business.Interfaces
 {
     public interface IObjetRepository
     {
-        public List<ObjetModel> GetObjet();
+        public List<ItemModel> GetObjet();
 
     }
 }

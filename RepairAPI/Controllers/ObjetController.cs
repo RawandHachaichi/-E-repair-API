@@ -15,7 +15,7 @@ namespace RepairAPI.Controllers
             _IObjetRepository = ObjetRepository;
         }
         [HttpGet]
-        public List<ObjetModel> GetObjetList()
+        public List<ItemModel> GetObjetList()
         {
             return _IObjetRepository.GetObjet();
         }

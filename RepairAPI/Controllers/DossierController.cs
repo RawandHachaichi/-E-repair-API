@@ -18,7 +18,7 @@ namespace RepairAPI.Controllers
             _IDossierRepository = DossierRepository;
         }
         [HttpPost]
-        public Dossier AddDossier(DossierModel Dossier)
+        public Dossier AddDossier(ReclamationModel Dossier)
         {
             return _IDossierRepository.AddDossier(Dossier);
         }

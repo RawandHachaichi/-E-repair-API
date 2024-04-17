@@ -17,9 +17,9 @@ namespace Repair.Business.Repository
             _databaseContext = databaseContext;
         }
 
-        public List<TypeDomageModel> GetDomageList()
+        public List<ItemModel> GetDomageList()
         {
-            return _databaseContext.TypeDomage.Select(x => new TypeDomageModel()
+            return _databaseContext.TypeDomage.Select(x => new ItemModel()
             {
                 Id = x.Id,
                 Nom = x.Nom,
