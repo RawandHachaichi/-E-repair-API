@@ -9,7 +9,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[Repair.Business.Models.CategorieModel, Repair.Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[Repair.Business.Models.ItemModel, Repair.Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -29,7 +29,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[Repair.Business.Models.CauseModel, Repair.Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[Repair.Business.Models.ItemModel, Repair.Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -69,13 +69,33 @@
     "Parameters": [
       {
         "Name": "Dossier",
-        "Type": "Repair.Business.Models.DossierModel",
+        "Type": "Repair.Business.Models.ReclamationModel",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
         "Type": "Repair.Database.Entities.Dossier",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RepairAPI.Controllers.DossierStatusController",
+    "Method": "GetStatus",
+    "RelativePath": "api/DossierStatus",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Repair.Business.Models.DossierStatusModel, Repair.Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -115,7 +135,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[Repair.Business.Models.LocalisationModel, Repair.Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[Repair.Business.Models.ItemModel, Repair.Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -126,16 +146,16 @@
     ]
   },
   {
-    "ContainingType": "RepairAPI.Controllers.MaterielController",
-    "Method": "GetMateriellist",
-    "RelativePath": "api/Materiel",
+    "ContainingType": "RepairAPI.Controllers.MatiereController",
+    "Method": "GetMatierelist",
+    "RelativePath": "api/Matiere",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[Repair.Business.Models.MaterielModel, Repair.Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[Repair.Business.Models.ItemModel, Repair.Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -155,7 +175,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[Repair.Business.Models.ObjetModel, Repair.Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[Repair.Business.Models.ItemModel, Repair.Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -175,7 +195,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[Repair.Business.Models.TypeBatimentModel, Repair.Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[Repair.Business.Models.ItemModel, Repair.Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -195,7 +215,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[Repair.Business.Models.TypeDomageModel, Repair.Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[Repair.Business.Models.ItemModel, Repair.Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -215,7 +235,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[Repair.Business.Models.TypeRendezVousModel, Repair.Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[Repair.Business.Models.ItemModel, Repair.Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",

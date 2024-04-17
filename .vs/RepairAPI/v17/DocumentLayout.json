@@ -3,76 +3,220 @@
   "WorkspaceRootPath": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repair.business\\models\\utilisateurmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|solutionrelative:repair.business\\models\\utilisateurmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Database\\Migrations\\20240416220809_FG.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Repair.Database\\Migrations\\20240416220809_FG.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repair.business\\interfaces\\iutilisateurrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|solutionrelative:repair.business\\interfaces\\iutilisateurrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{76DEDA98-2C87-43F1-B010-328B03DD36FF}|RepairAPI\\RepairAPI.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repairapi\\controllers\\typedomagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76DEDA98-2C87-43F1-B010-328B03DD36FF}|RepairAPI\\RepairAPI.csproj|solutionrelative:repairapi\\controllers\\typedomagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76DEDA98-2C87-43F1-B010-328B03DD36FF}|RepairAPI\\RepairAPI.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repairapi\\controllers\\utilisateurcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76DEDA98-2C87-43F1-B010-328B03DD36FF}|RepairAPI\\RepairAPI.csproj|solutionrelative:repairapi\\controllers\\utilisateurcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{76DEDA98-2C87-43F1-B010-328B03DD36FF}|RepairAPI\\RepairAPI.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repairapi\\controllers\\typebatimentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76DEDA98-2C87-43F1-B010-328B03DD36FF}|RepairAPI\\RepairAPI.csproj|solutionrelative:repairapi\\controllers\\typebatimentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76DEDA98-2C87-43F1-B010-328B03DD36FF}|RepairAPI\\RepairAPI.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repairapi\\controllers\\objetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76DEDA98-2C87-43F1-B010-328B03DD36FF}|RepairAPI\\RepairAPI.csproj|solutionrelative:repairapi\\controllers\\objetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76DEDA98-2C87-43F1-B010-328B03DD36FF}|RepairAPI\\RepairAPI.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repairapi\\controllers\\localisationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76DEDA98-2C87-43F1-B010-328B03DD36FF}|RepairAPI\\RepairAPI.csproj|solutionrelative:repairapi\\controllers\\localisationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76DEDA98-2C87-43F1-B010-328B03DD36FF}|RepairAPI\\RepairAPI.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repairapi\\controllers\\causecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76DEDA98-2C87-43F1-B010-328B03DD36FF}|RepairAPI\\RepairAPI.csproj|solutionrelative:repairapi\\controllers\\causecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76DEDA98-2C87-43F1-B010-328B03DD36FF}|RepairAPI\\RepairAPI.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repairapi\\controllers\\categoriecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76DEDA98-2C87-43F1-B010-328B03DD36FF}|RepairAPI\\RepairAPI.csproj|solutionrelative:repairapi\\controllers\\categoriecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repair.business\\repository\\utilisateurrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|solutionrelative:repair.business\\repository\\utilisateurrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76DEDA98-2C87-43F1-B010-328B03DD36FF}|RepairAPI\\RepairAPI.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repairapi\\controllers\\delegationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76DEDA98-2C87-43F1-B010-328B03DD36FF}|RepairAPI\\RepairAPI.csproj|solutionrelative:repairapi\\controllers\\delegationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repair.business\\repository\\dossierrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|solutionrelative:repair.business\\repository\\dossierrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repair.business\\interfaces\\idelegationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|solutionrelative:repair.business\\interfaces\\idelegationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repair.business\\models\\dossiermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|solutionrelative:repair.business\\models\\dossiermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repair.business\\models\\gouvernoratmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|solutionrelative:repair.business\\models\\gouvernoratmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{76DEDA98-2C87-43F1-B010-328B03DD36FF}|RepairAPI\\RepairAPI.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repairapi\\controllers\\dossiercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76DEDA98-2C87-43F1-B010-328B03DD36FF}|RepairAPI\\RepairAPI.csproj|solutionrelative:repairapi\\controllers\\dossiercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repair.business\\models\\competencemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|solutionrelative:repair.business\\models\\competencemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{76DEDA98-2C87-43F1-B010-328B03DD36FF}|RepairAPI\\RepairAPI.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repairapi\\controllers\\typerendezvouscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76DEDA98-2C87-43F1-B010-328B03DD36FF}|RepairAPI\\RepairAPI.csproj|solutionrelative:repairapi\\controllers\\typerendezvouscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76DEDA98-2C87-43F1-B010-328B03DD36FF}|RepairAPI\\RepairAPI.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repairapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{76DEDA98-2C87-43F1-B010-328B03DD36FF}|RepairAPI\\RepairAPI.csproj|solutionrelative:repairapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repair.business\\interfaces\\ityperendezvousrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|solutionrelative:repair.business\\interfaces\\ityperendezvousrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76DEDA98-2C87-43F1-B010-328B03DD36FF}|RepairAPI\\RepairAPI.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repairapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76DEDA98-2C87-43F1-B010-328B03DD36FF}|RepairAPI\\RepairAPI.csproj|solutionrelative:repairapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D68C110-2964-457E-881B-D62FD0BEA083}|Repair.Database\\Repair.Database.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repair.database\\entities\\utilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D68C110-2964-457E-881B-D62FD0BEA083}|Repair.Database\\Repair.Database.csproj|solutionrelative:repair.database\\entities\\utilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repair.business\\interfaces\\icompetencerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|solutionrelative:repair.business\\interfaces\\icompetencerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repair.business\\interfaces\\igouvernoratrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|solutionrelative:repair.business\\interfaces\\igouvernoratrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repair.business\\models\\helpers\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|solutionrelative:repair.business\\models\\helpers\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repair.business\\models\\delegationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|solutionrelative:repair.business\\models\\delegationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D68C110-2964-457E-881B-D62FD0BEA083}|Repair.Database\\Repair.Database.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repair.database\\entities\\gouvernorat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D68C110-2964-457E-881B-D62FD0BEA083}|Repair.Database\\Repair.Database.csproj|solutionrelative:repair.database\\entities\\gouvernorat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repair.business\\repository\\typerendezvousrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|solutionrelative:repair.business\\repository\\typerendezvousrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7D68C110-2964-457E-881B-D62FD0BEA083}|Repair.Database\\Repair.Database.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repair.database\\entities\\delegation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D68C110-2964-457E-881B-D62FD0BEA083}|Repair.Database\\Repair.Database.csproj|solutionrelative:repair.database\\entities\\delegation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repair.business\\models\\rendezvousmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|solutionrelative:repair.business\\models\\rendezvousmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76DEDA98-2C87-43F1-B010-328B03DD36FF}|RepairAPI\\RepairAPI.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repairapi\\controllers\\matierecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76DEDA98-2C87-43F1-B010-328B03DD36FF}|RepairAPI\\RepairAPI.csproj|solutionrelative:repairapi\\controllers\\matierecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76DEDA98-2C87-43F1-B010-328B03DD36FF}|RepairAPI\\RepairAPI.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repairapi\\controllers\\dossierstatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76DEDA98-2C87-43F1-B010-328B03DD36FF}|RepairAPI\\RepairAPI.csproj|solutionrelative:repairapi\\controllers\\dossierstatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repair.business\\interfaces\\idossierrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|solutionrelative:repair.business\\interfaces\\idossierrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repair.business\\interfaces\\iobjetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|solutionrelative:repair.business\\interfaces\\iobjetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repair.business\\models\\itemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|solutionrelative:repair.business\\models\\itemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repair.business\\models\\gouvernoratmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|solutionrelative:repair.business\\models\\gouvernoratmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repair.business\\models\\eventmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|solutionrelative:repair.business\\models\\eventmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repair.business\\models\\competencemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|solutionrelative:repair.business\\models\\competencemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D68C110-2964-457E-881B-D62FD0BEA083}|Repair.Database\\Repair.Database.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repair.database\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D68C110-2964-457E-881B-D62FD0BEA083}|Repair.Database\\Repair.Database.csproj|solutionrelative:repair.database\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76DEDA98-2C87-43F1-B010-328B03DD36FF}|RepairAPI\\RepairAPI.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repairapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76DEDA98-2C87-43F1-B010-328B03DD36FF}|RepairAPI\\RepairAPI.csproj|solutionrelative:repairapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76DEDA98-2C87-43F1-B010-328B03DD36FF}|RepairAPI\\RepairAPI.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repairapi\\controllers\\utilisateurcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76DEDA98-2C87-43F1-B010-328B03DD36FF}|RepairAPI\\RepairAPI.csproj|solutionrelative:repairapi\\controllers\\utilisateurcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D68C110-2964-457E-881B-D62FD0BEA083}|Repair.Database\\Repair.Database.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repair.database\\entities\\matiere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D68C110-2964-457E-881B-D62FD0BEA083}|Repair.Database\\Repair.Database.csproj|solutionrelative:repair.database\\entities\\matiere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D68C110-2964-457E-881B-D62FD0BEA083}|Repair.Database\\Repair.Database.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repair.database\\entities\\categorie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D68C110-2964-457E-881B-D62FD0BEA083}|Repair.Database\\Repair.Database.csproj|solutionrelative:repair.database\\entities\\categorie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repair.business\\interfaces\\iutilisateurrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|solutionrelative:repair.business\\interfaces\\iutilisateurrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repair.business\\interfaces\\idossierstatusrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|solutionrelative:repair.business\\interfaces\\idossierstatusrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repair.business\\repository\\dossierstatusrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|solutionrelative:repair.business\\repository\\dossierstatusrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D68C110-2964-457E-881B-D62FD0BEA083}|Repair.Database\\Repair.Database.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repair.database\\entities\\dossierstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D68C110-2964-457E-881B-D62FD0BEA083}|Repair.Database\\Repair.Database.csproj|solutionrelative:repair.database\\entities\\dossierstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repair.business\\models\\dossierstatusmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|solutionrelative:repair.business\\models\\dossierstatusmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repair.business\\models\\utilisateurmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|solutionrelative:repair.business\\models\\utilisateurmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D68C110-2964-457E-881B-D62FD0BEA083}|Repair.Database\\Repair.Database.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repair.database\\entities\\utilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D68C110-2964-457E-881B-D62FD0BEA083}|Repair.Database\\Repair.Database.csproj|solutionrelative:repair.database\\entities\\utilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76DEDA98-2C87-43F1-B010-328B03DD36FF}|RepairAPI\\RepairAPI.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repairapi\\controllers\\delegationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76DEDA98-2C87-43F1-B010-328B03DD36FF}|RepairAPI\\RepairAPI.csproj|solutionrelative:repairapi\\controllers\\delegationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76DEDA98-2C87-43F1-B010-328B03DD36FF}|RepairAPI\\RepairAPI.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repairapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{76DEDA98-2C87-43F1-B010-328B03DD36FF}|RepairAPI\\RepairAPI.csproj|solutionrelative:repairapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76DEDA98-2C87-43F1-B010-328B03DD36FF}|RepairAPI\\RepairAPI.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repairapi\\controllers\\gouvernoratcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76DEDA98-2C87-43F1-B010-328B03DD36FF}|RepairAPI\\RepairAPI.csproj|solutionrelative:repairapi\\controllers\\gouvernoratcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repair.business\\interfaces\\igouvernoratrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|solutionrelative:repair.business\\interfaces\\igouvernoratrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repair.business\\interfaces\\ieventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|solutionrelative:repair.business\\interfaces\\ieventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repair.business\\interfaces\\idelegationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|solutionrelative:repair.business\\interfaces\\idelegationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repair.business\\interfaces\\icompetencerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|solutionrelative:repair.business\\interfaces\\icompetencerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repair.business\\repository\\delegationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|solutionrelative:repair.business\\repository\\delegationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D68C110-2964-457E-881B-D62FD0BEA083}|Repair.Database\\Repair.Database.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repair.database\\entities\\gouvernorat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D68C110-2964-457E-881B-D62FD0BEA083}|Repair.Database\\Repair.Database.csproj|solutionrelative:repair.database\\entities\\gouvernorat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D68C110-2964-457E-881B-D62FD0BEA083}|Repair.Database\\Repair.Database.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repair.database\\entities\\localisation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D68C110-2964-457E-881B-D62FD0BEA083}|Repair.Database\\Repair.Database.csproj|solutionrelative:repair.database\\entities\\localisation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repair.business\\models\\delegationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|solutionrelative:repair.business\\models\\delegationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D68C110-2964-457E-881B-D62FD0BEA083}|Repair.Database\\Repair.Database.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repair.database\\entities\\categoriecomp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D68C110-2964-457E-881B-D62FD0BEA083}|Repair.Database\\Repair.Database.csproj|solutionrelative:repair.database\\entities\\categoriecomp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repair.business\\repository\\competencerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|solutionrelative:repair.business\\repository\\competencerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D68C110-2964-457E-881B-D62FD0BEA083}|Repair.Database\\Repair.Database.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repair.database\\entities\\cause.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D68C110-2964-457E-881B-D62FD0BEA083}|Repair.Database\\Repair.Database.csproj|solutionrelative:repair.database\\entities\\cause.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repair.business\\repository\\gouvernoratrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|solutionrelative:repair.business\\repository\\gouvernoratrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D68C110-2964-457E-881B-D62FD0BEA083}|Repair.Database\\Repair.Database.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repair.database\\entities\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D68C110-2964-457E-881B-D62FD0BEA083}|Repair.Database\\Repair.Database.csproj|solutionrelative:repair.database\\entities\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D68C110-2964-457E-881B-D62FD0BEA083}|Repair.Database\\Repair.Database.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repair.database\\entities\\reparateurcompetence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D68C110-2964-457E-881B-D62FD0BEA083}|Repair.Database\\Repair.Database.csproj|solutionrelative:repair.database\\entities\\reparateurcompetence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D68C110-2964-457E-881B-D62FD0BEA083}|Repair.Database\\Repair.Database.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repair.database\\entities\\typedomage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D68C110-2964-457E-881B-D62FD0BEA083}|Repair.Database\\Repair.Database.csproj|solutionrelative:repair.database\\entities\\typedomage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repair.business\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -99,40 +243,16 @@
       "RelativeMoniker": "D:0:0:{7D68C110-2964-457E-881B-D62FD0BEA083}|Repair.Database\\Repair.Database.csproj|solutionrelative:repair.database\\migrations\\databasecontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76DEDA98-2C87-43F1-B010-328B03DD36FF}|RepairAPI\\RepairAPI.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repairapi\\controllers\\competencecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76DEDA98-2C87-43F1-B010-328B03DD36FF}|RepairAPI\\RepairAPI.csproj|solutionrelative:repairapi\\controllers\\competencecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76DEDA98-2C87-43F1-B010-328B03DD36FF}|RepairAPI\\RepairAPI.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repairapi\\controllers\\gouvernoratcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76DEDA98-2C87-43F1-B010-328B03DD36FF}|RepairAPI\\RepairAPI.csproj|solutionrelative:repairapi\\controllers\\gouvernoratcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D68C110-2964-457E-881B-D62FD0BEA083}|Repair.Database\\Repair.Database.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repair.database\\entities\\competence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D68C110-2964-457E-881B-D62FD0BEA083}|Repair.Database\\Repair.Database.csproj|solutionrelative:repair.database\\entities\\competence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repair.business\\repository\\gouvernoratrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|solutionrelative:repair.business\\repository\\gouvernoratrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D68C110-2964-457E-881B-D62FD0BEA083}|Repair.Database\\Repair.Database.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repair.database\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D68C110-2964-457E-881B-D62FD0BEA083}|Repair.Database\\Repair.Database.csproj|solutionrelative:repair.database\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{76DEDA98-2C87-43F1-B010-328B03DD36FF}|RepairAPI\\RepairAPI.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repairapi\\repairapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{76DEDA98-2C87-43F1-B010-328B03DD36FF}|RepairAPI\\RepairAPI.csproj|solutionrelative:repairapi\\repairapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repair.business\\repository\\competencerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|solutionrelative:repair.business\\repository\\competencerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repair.business\\repair.business.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|solutionrelative:repair.business\\repair.business.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D68C110-2964-457E-881B-D62FD0BEA083}|Repair.Database\\Repair.Database.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repair.database\\entities\\reparateurcompetence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D68C110-2964-457E-881B-D62FD0BEA083}|Repair.Database\\Repair.Database.csproj|solutionrelative:repair.database\\entities\\reparateurcompetence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7D68C110-2964-457E-881B-D62FD0BEA083}|Repair.Database\\Repair.Database.csproj|c:\\users\\lenovo\\source\\repos\\e-repair-api\\repairapi\\repair.database\\migrations\\20240403001031_pp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D68C110-2964-457E-881B-D62FD0BEA083}|Repair.Database\\Repair.Database.csproj|solutionrelative:repair.database\\migrations\\20240403001031_pp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -142,11 +262,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Delegation.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Database\\Entities\\Delegation.cs",
+              "RelativeDocumentMoniker": "Repair.Database\\Entities\\Delegation.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Database\\Entities\\Delegation.cs",
+              "RelativeToolTip": "Repair.Database\\Entities\\Delegation.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAABIAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T18:15:18.656Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20240416220809_FG.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Database\\Migrations\\20240416220809_FG.cs",
+              "RelativeDocumentMoniker": "Repair.Database\\Migrations\\20240416220809_FG.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Database\\Migrations\\20240416220809_FG.cs",
+              "RelativeToolTip": "Repair.Database\\Migrations\\20240416220809_FG.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T22:08:10.206Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -161,86 +304,263 @@
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UtilisateurModel.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Models\\UtilisateurModel.cs",
-              "RelativeDocumentMoniker": "Repair.Business\\Models\\UtilisateurModel.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Models\\UtilisateurModel.cs*",
-              "RelativeToolTip": "Repair.Business\\Models\\UtilisateurModel.cs*",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAABoAAAAWAAAA",
+              "DocumentIndex": 1,
+              "Title": "TypeDomageController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\RepairAPI\\Controllers\\TypeDomageController.cs",
+              "RelativeDocumentMoniker": "RepairAPI\\Controllers\\TypeDomageController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\RepairAPI\\Controllers\\TypeDomageController.cs",
+              "RelativeToolTip": "RepairAPI\\Controllers\\TypeDomageController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAWwBIAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T18:06:48.486Z",
+              "WhenOpened": "2024-04-03T00:41:04.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TypeBatimentController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\RepairAPI\\Controllers\\TypeBatimentController.cs",
+              "RelativeDocumentMoniker": "RepairAPI\\Controllers\\TypeBatimentController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\RepairAPI\\Controllers\\TypeBatimentController.cs",
+              "RelativeToolTip": "RepairAPI\\Controllers\\TypeBatimentController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAWwBIAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T00:41:12.039Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "UtilisateurRepository.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Repository\\UtilisateurRepository.cs",
-              "RelativeDocumentMoniker": "Repair.Business\\Repository\\UtilisateurRepository.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Repository\\UtilisateurRepository.cs",
-              "RelativeToolTip": "Repair.Business\\Repository\\UtilisateurRepository.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Title": "ObjetController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\RepairAPI\\Controllers\\ObjetController.cs",
+              "RelativeDocumentMoniker": "RepairAPI\\Controllers\\ObjetController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\RepairAPI\\Controllers\\ObjetController.cs",
+              "RelativeToolTip": "RepairAPI\\Controllers\\ObjetController.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAWwBEAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T16:20:05.636Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UtilisateurController.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\RepairAPI\\Controllers\\UtilisateurController.cs",
-              "RelativeDocumentMoniker": "RepairAPI\\Controllers\\UtilisateurController.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\RepairAPI\\Controllers\\UtilisateurController.cs",
-              "RelativeToolTip": "RepairAPI\\Controllers\\UtilisateurController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T16:11:34.13Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IUtilisateurRepository.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Interfaces\\IUtilisateurRepository.cs",
-              "RelativeDocumentMoniker": "Repair.Business\\Interfaces\\IUtilisateurRepository.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Interfaces\\IUtilisateurRepository.cs",
-              "RelativeToolTip": "Repair.Business\\Interfaces\\IUtilisateurRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T16:57:00.246Z",
+              "WhenOpened": "2024-04-16T22:06:47.049Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "DelegationController.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\RepairAPI\\Controllers\\DelegationController.cs",
-              "RelativeDocumentMoniker": "RepairAPI\\Controllers\\DelegationController.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\RepairAPI\\Controllers\\DelegationController.cs",
-              "RelativeToolTip": "RepairAPI\\Controllers\\DelegationController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAIwBYAAAAQAAAA",
+              "Title": "LocalisationController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\RepairAPI\\Controllers\\LocalisationController.cs",
+              "RelativeDocumentMoniker": "RepairAPI\\Controllers\\LocalisationController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\RepairAPI\\Controllers\\LocalisationController.cs",
+              "RelativeToolTip": "RepairAPI\\Controllers\\LocalisationController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAWwBMAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T12:12:28.769Z",
+              "WhenOpened": "2024-04-16T22:06:35.055Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IDelegationRepository.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Interfaces\\IDelegationRepository.cs",
-              "RelativeDocumentMoniker": "Repair.Business\\Interfaces\\IDelegationRepository.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Interfaces\\IDelegationRepository.cs",
-              "RelativeToolTip": "Repair.Business\\Interfaces\\IDelegationRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "DocumentIndex": 7,
+              "Title": "UtilisateurRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Repository\\UtilisateurRepository.cs",
+              "RelativeDocumentMoniker": "Repair.Business\\Repository\\UtilisateurRepository.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Repository\\UtilisateurRepository.cs",
+              "RelativeToolTip": "Repair.Business\\Repository\\UtilisateurRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACwAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-11T16:33:39.985Z",
+              "WhenOpened": "2024-04-12T10:27:24.084Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "CategorieController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\RepairAPI\\Controllers\\CategorieController.cs",
+              "RelativeDocumentMoniker": "RepairAPI\\Controllers\\CategorieController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\RepairAPI\\Controllers\\CategorieController.cs",
+              "RelativeToolTip": "RepairAPI\\Controllers\\CategorieController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAWwBMAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T12:25:52.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CauseController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\RepairAPI\\Controllers\\CauseController.cs",
+              "RelativeDocumentMoniker": "RepairAPI\\Controllers\\CauseController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\RepairAPI\\Controllers\\CauseController.cs",
+              "RelativeToolTip": "RepairAPI\\Controllers\\CauseController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAWwBMAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T19:19:16.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DossierRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Repository\\DossierRepository.cs",
+              "RelativeDocumentMoniker": "Repair.Business\\Repository\\DossierRepository.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Repository\\DossierRepository.cs",
+              "RelativeToolTip": "Repair.Business\\Repository\\DossierRepository.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAAACwAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T10:24:03.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DossierModel.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Models\\DossierModel.cs",
+              "RelativeDocumentMoniker": "Repair.Business\\Models\\DossierModel.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Models\\DossierModel.cs",
+              "RelativeToolTip": "Repair.Business\\Models\\DossierModel.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAAAC4AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T18:55:07.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DossierController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\RepairAPI\\Controllers\\DossierController.cs",
+              "RelativeDocumentMoniker": "RepairAPI\\Controllers\\DossierController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\RepairAPI\\Controllers\\DossierController.cs",
+              "RelativeToolTip": "RepairAPI\\Controllers\\DossierController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T21:57:51.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ITypeRendezVousRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Interfaces\\ITypeRendezVousRepository.cs",
+              "RelativeDocumentMoniker": "Repair.Business\\Interfaces\\ITypeRendezVousRepository.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Interfaces\\ITypeRendezVousRepository.cs",
+              "RelativeToolTip": "Repair.Business\\Interfaces\\ITypeRendezVousRepository.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAAsAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T16:27:53.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TypeRendezVousRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Repository\\TypeRendezVousRepository.cs",
+              "RelativeDocumentMoniker": "Repair.Business\\Repository\\TypeRendezVousRepository.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Repository\\TypeRendezVousRepository.cs",
+              "RelativeToolTip": "Repair.Business\\Repository\\TypeRendezVousRepository.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAArwBQAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T20:49:24.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TypeRendezVousController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\RepairAPI\\Controllers\\TypeRendezVousController.cs",
+              "RelativeDocumentMoniker": "RepairAPI\\Controllers\\TypeRendezVousController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\RepairAPI\\Controllers\\TypeRendezVousController.cs",
+              "RelativeToolTip": "RepairAPI\\Controllers\\TypeRendezVousController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAABIAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T16:32:38.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RendezVousModel.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Models\\RendezVousModel.cs",
+              "RelativeDocumentMoniker": "Repair.Business\\Models\\RendezVousModel.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Models\\RendezVousModel.cs",
+              "RelativeToolTip": "Repair.Business\\Models\\RendezVousModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T21:11:56.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MatiereController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\RepairAPI\\Controllers\\MatiereController.cs",
+              "RelativeDocumentMoniker": "RepairAPI\\Controllers\\MatiereController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\RepairAPI\\Controllers\\MatiereController.cs",
+              "RelativeToolTip": "RepairAPI\\Controllers\\MatiereController.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAAAsAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T21:17:33.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IDossierRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Interfaces\\IDossierRepository.cs",
+              "RelativeDocumentMoniker": "Repair.Business\\Interfaces\\IDossierRepository.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Interfaces\\IDossierRepository.cs",
+              "RelativeToolTip": "Repair.Business\\Interfaces\\IDossierRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T08:55:09.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DossierStatusController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\RepairAPI\\Controllers\\DossierStatusController.cs",
+              "RelativeDocumentMoniker": "RepairAPI\\Controllers\\DossierStatusController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\RepairAPI\\Controllers\\DossierStatusController.cs",
+              "RelativeToolTip": "RepairAPI\\Controllers\\DossierStatusController.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAAAsAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T18:42:49.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IObjetRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Interfaces\\IObjetRepository.cs",
+              "RelativeDocumentMoniker": "Repair.Business\\Interfaces\\IObjetRepository.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Interfaces\\IObjetRepository.cs",
+              "RelativeToolTip": "Repair.Business\\Interfaces\\IObjetRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAwAsAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T20:44:28.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ItemModel.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Models\\ItemModel.cs",
+              "RelativeDocumentMoniker": "Repair.Business\\Models\\ItemModel.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Models\\ItemModel.cs",
+              "RelativeToolTip": "Repair.Business\\Models\\ItemModel.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T20:38:56.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "GouvernoratModel.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Models\\GouvernoratModel.cs",
               "RelativeDocumentMoniker": "Repair.Business\\Models\\GouvernoratModel.cs",
@@ -253,20 +573,193 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 22,
+              "Title": "EventModel.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Models\\EventModel.cs",
+              "RelativeDocumentMoniker": "Repair.Business\\Models\\EventModel.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Models\\EventModel.cs",
+              "RelativeToolTip": "Repair.Business\\Models\\EventModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T18:56:27.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "CompetenceModel.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Models\\CompetenceModel.cs",
               "RelativeDocumentMoniker": "Repair.Business\\Models\\CompetenceModel.cs",
               "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Models\\CompetenceModel.cs",
               "RelativeToolTip": "Repair.Business\\Models\\CompetenceModel.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAAA8AAAAyAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAAA4AAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T18:14:45.286Z",
+              "WhenOpened": "2024-04-16T20:40:12.366Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 24,
+              "Title": "DatabaseContext.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Database\\DatabaseContext.cs",
+              "RelativeDocumentMoniker": "Repair.Database\\DatabaseContext.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Database\\DatabaseContext.cs",
+              "RelativeToolTip": "Repair.Database\\DatabaseContext.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAA0wBMAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T10:42:16.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UtilisateurController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\RepairAPI\\Controllers\\UtilisateurController.cs",
+              "RelativeDocumentMoniker": "RepairAPI\\Controllers\\UtilisateurController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\RepairAPI\\Controllers\\UtilisateurController.cs",
+              "RelativeToolTip": "RepairAPI\\Controllers\\UtilisateurController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAcwCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T16:11:34.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\RepairAPI\\Program.cs",
+              "RelativeDocumentMoniker": "RepairAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\RepairAPI\\Program.cs",
+              "RelativeToolTip": "RepairAPI\\Program.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAAAFUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T00:08:54.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Matiere.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Database\\Entities\\Matiere.cs",
+              "RelativeDocumentMoniker": "Repair.Database\\Entities\\Matiere.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Database\\Entities\\Matiere.cs",
+              "RelativeToolTip": "Repair.Database\\Entities\\Matiere.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T20:19:18.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IDossierStatusRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Interfaces\\IDossierStatusRepository.cs",
+              "RelativeDocumentMoniker": "Repair.Business\\Interfaces\\IDossierStatusRepository.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Interfaces\\IDossierStatusRepository.cs",
+              "RelativeToolTip": "Repair.Business\\Interfaces\\IDossierStatusRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T18:36:26.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IUtilisateurRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Interfaces\\IUtilisateurRepository.cs",
+              "RelativeDocumentMoniker": "Repair.Business\\Interfaces\\IUtilisateurRepository.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Interfaces\\IUtilisateurRepository.cs",
+              "RelativeToolTip": "Repair.Business\\Interfaces\\IUtilisateurRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA0AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T14:18:12.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Categorie.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Database\\Entities\\Categorie.cs",
+              "RelativeDocumentMoniker": "Repair.Database\\Entities\\Categorie.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Database\\Entities\\Categorie.cs",
+              "RelativeToolTip": "Repair.Database\\Entities\\Categorie.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T18:52:06.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "DossierStatusRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Repository\\DossierStatusRepository.cs",
+              "RelativeDocumentMoniker": "Repair.Business\\Repository\\DossierStatusRepository.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Repository\\DossierStatusRepository.cs",
+              "RelativeToolTip": "Repair.Business\\Repository\\DossierStatusRepository.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAowBUAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T18:39:29.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "DossierStatusModel.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Models\\DossierStatusModel.cs",
+              "RelativeDocumentMoniker": "Repair.Business\\Models\\DossierStatusModel.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Models\\DossierStatusModel.cs",
+              "RelativeToolTip": "Repair.Business\\Models\\DossierStatusModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T18:55:28.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "DossierStatus.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Database\\Entities\\DossierStatus.cs",
+              "RelativeDocumentMoniker": "Repair.Database\\Entities\\DossierStatus.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Database\\Entities\\DossierStatus.cs",
+              "RelativeToolTip": "Repair.Database\\Entities\\DossierStatus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T18:51:59.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "UtilisateurModel.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Models\\UtilisateurModel.cs",
+              "RelativeDocumentMoniker": "Repair.Business\\Models\\UtilisateurModel.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Models\\UtilisateurModel.cs",
+              "RelativeToolTip": "Repair.Business\\Models\\UtilisateurModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T18:06:48.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Utilisateur.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Database\\Entities\\Utilisateur.cs",
+              "RelativeDocumentMoniker": "Repair.Database\\Entities\\Utilisateur.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Database\\Entities\\Utilisateur.cs",
+              "RelativeToolTip": "Repair.Database\\Entities\\Utilisateur.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABQAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T13:45:27.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "DelegationController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\RepairAPI\\Controllers\\DelegationController.cs",
+              "RelativeDocumentMoniker": "RepairAPI\\Controllers\\DelegationController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\RepairAPI\\Controllers\\DelegationController.cs",
+              "RelativeToolTip": "RepairAPI\\Controllers\\DelegationController.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAABcAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T19:19:14.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\RepairAPI\\appsettings.json",
               "RelativeDocumentMoniker": "RepairAPI\\appsettings.json",
@@ -274,74 +767,107 @@
               "RelativeToolTip": "RepairAPI\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-10T12:17:26.865Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-10T12:17:26.865Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\RepairAPI\\Program.cs",
-              "RelativeDocumentMoniker": "RepairAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\RepairAPI\\Program.cs",
-              "RelativeToolTip": "RepairAPI\\Program.cs",
-              "ViewState": "AQIAAGAAAAAAAAAAAAAAAGYAAAADAAAA",
+              "DocumentIndex": 38,
+              "Title": "GouvernoratController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\RepairAPI\\Controllers\\GouvernoratController.cs",
+              "RelativeDocumentMoniker": "RepairAPI\\Controllers\\GouvernoratController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\RepairAPI\\Controllers\\GouvernoratController.cs",
+              "RelativeToolTip": "RepairAPI\\Controllers\\GouvernoratController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T12:17:21.584Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-12T14:31:07.266Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Utilisateur.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Database\\Entities\\Utilisateur.cs",
-              "RelativeDocumentMoniker": "Repair.Database\\Entities\\Utilisateur.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Database\\Entities\\Utilisateur.cs",
-              "RelativeToolTip": "Repair.Database\\Entities\\Utilisateur.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T18:12:42.707Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ICompetenceRepository.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Interfaces\\ICompetenceRepository.cs",
-              "RelativeDocumentMoniker": "Repair.Business\\Interfaces\\ICompetenceRepository.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Interfaces\\ICompetenceRepository.cs",
-              "RelativeToolTip": "Repair.Business\\Interfaces\\ICompetenceRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T18:00:37.959Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 39,
               "Title": "IGouvernoratRepository.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Interfaces\\IGouvernoratRepository.cs",
               "RelativeDocumentMoniker": "Repair.Business\\Interfaces\\IGouvernoratRepository.cs",
               "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Interfaces\\IGouvernoratRepository.cs",
               "RelativeToolTip": "Repair.Business\\Interfaces\\IGouvernoratRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T10:22:25.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IEventRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Interfaces\\IEventRepository.cs",
+              "RelativeDocumentMoniker": "Repair.Business\\Interfaces\\IEventRepository.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Interfaces\\IEventRepository.cs",
+              "RelativeToolTip": "Repair.Business\\Interfaces\\IEventRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T19:03:26.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IDelegationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Interfaces\\IDelegationRepository.cs",
+              "RelativeDocumentMoniker": "Repair.Business\\Interfaces\\IDelegationRepository.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Interfaces\\IDelegationRepository.cs",
+              "RelativeToolTip": "Repair.Business\\Interfaces\\IDelegationRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T12:10:20.325Z"
+              "WhenOpened": "2024-04-12T10:23:14.136Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "PasswordHasher.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Models\\Helpers\\PasswordHasher.cs",
-              "RelativeDocumentMoniker": "Repair.Business\\Models\\Helpers\\PasswordHasher.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Models\\Helpers\\PasswordHasher.cs",
-              "RelativeToolTip": "Repair.Business\\Models\\Helpers\\PasswordHasher.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD4AAAAuAAAA",
+              "DocumentIndex": 42,
+              "Title": "ICompetenceRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Interfaces\\ICompetenceRepository.cs",
+              "RelativeDocumentMoniker": "Repair.Business\\Interfaces\\ICompetenceRepository.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Interfaces\\ICompetenceRepository.cs",
+              "RelativeToolTip": "Repair.Business\\Interfaces\\ICompetenceRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T01:55:44.78Z"
+              "WhenOpened": "2024-04-12T15:44:02.147Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 43,
+              "Title": "DelegationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Repository\\DelegationRepository.cs",
+              "RelativeDocumentMoniker": "Repair.Business\\Repository\\DelegationRepository.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Repository\\DelegationRepository.cs",
+              "RelativeToolTip": "Repair.Business\\Repository\\DelegationRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T10:30:27.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Gouvernorat.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Database\\Entities\\Gouvernorat.cs",
+              "RelativeDocumentMoniker": "Repair.Database\\Entities\\Gouvernorat.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Database\\Entities\\Gouvernorat.cs",
+              "RelativeToolTip": "Repair.Database\\Entities\\Gouvernorat.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T13:52:29.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Localisation.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Database\\Entities\\Localisation.cs",
+              "RelativeDocumentMoniker": "Repair.Database\\Entities\\Localisation.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Database\\Entities\\Localisation.cs",
+              "RelativeToolTip": "Repair.Database\\Entities\\Localisation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T13:52:27.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
               "Title": "DelegationModel.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Models\\DelegationModel.cs",
               "RelativeDocumentMoniker": "Repair.Business\\Models\\DelegationModel.cs",
@@ -353,43 +879,103 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Gouvernorat.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Database\\Entities\\Gouvernorat.cs",
-              "RelativeDocumentMoniker": "Repair.Database\\Entities\\Gouvernorat.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Database\\Entities\\Gouvernorat.cs",
-              "RelativeToolTip": "Repair.Database\\Entities\\Gouvernorat.cs",
+              "DocumentIndex": 47,
+              "Title": "CategorieComp.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Database\\Entities\\CategorieComp.cs",
+              "RelativeDocumentMoniker": "Repair.Database\\Entities\\CategorieComp.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Database\\Entities\\CategorieComp.cs",
+              "RelativeToolTip": "Repair.Database\\Entities\\CategorieComp.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T18:15:46.147Z"
+              "WhenOpened": "2024-04-05T18:52:14.492Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Delegation.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Database\\Entities\\Delegation.cs",
-              "RelativeDocumentMoniker": "Repair.Database\\Entities\\Delegation.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Database\\Entities\\Delegation.cs",
-              "RelativeToolTip": "Repair.Database\\Entities\\Delegation.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAA+wBIAAAAGAAAA",
+              "DocumentIndex": 48,
+              "Title": "CompetenceRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Repository\\CompetenceRepository.cs",
+              "RelativeDocumentMoniker": "Repair.Business\\Repository\\CompetenceRepository.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Repository\\CompetenceRepository.cs",
+              "RelativeToolTip": "Repair.Business\\Repository\\CompetenceRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T18:15:18.656Z"
+              "WhenOpened": "2024-04-12T10:25:08.268Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "DelegationRepository.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Repository\\DelegationRepository.cs",
-              "RelativeDocumentMoniker": "Repair.Business\\Repository\\DelegationRepository.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Repository\\DelegationRepository.cs",
-              "RelativeToolTip": "Repair.Business\\Repository\\DelegationRepository.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAQAAAA",
+              "DocumentIndex": 49,
+              "Title": "Cause.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Database\\Entities\\Cause.cs",
+              "RelativeDocumentMoniker": "Repair.Database\\Entities\\Cause.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Database\\Entities\\Cause.cs",
+              "RelativeToolTip": "Repair.Database\\Entities\\Cause.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T12:10:49.505Z"
+              "WhenOpened": "2024-04-05T19:43:27.187Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 50,
+              "Title": "GouvernoratRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Repository\\GouvernoratRepository.cs",
+              "RelativeDocumentMoniker": "Repair.Business\\Repository\\GouvernoratRepository.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Repository\\GouvernoratRepository.cs",
+              "RelativeToolTip": "Repair.Business\\Repository\\GouvernoratRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T10:30:24.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Event.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Database\\Entities\\Event.cs",
+              "RelativeDocumentMoniker": "Repair.Database\\Entities\\Event.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Database\\Entities\\Event.cs",
+              "RelativeToolTip": "Repair.Database\\Entities\\Event.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T18:52:56.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "20240403001031_PP.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Database\\Migrations\\20240403001031_PP.cs",
+              "RelativeDocumentMoniker": "Repair.Database\\Migrations\\20240403001031_PP.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Database\\Migrations\\20240403001031_PP.cs",
+              "RelativeToolTip": "Repair.Database\\Migrations\\20240403001031_PP.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T00:10:31.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "ReparateurCompetence.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Database\\Entities\\ReparateurCompetence.cs",
+              "RelativeDocumentMoniker": "Repair.Database\\Entities\\ReparateurCompetence.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Database\\Entities\\ReparateurCompetence.cs",
+              "RelativeToolTip": "Repair.Database\\Entities\\ReparateurCompetence.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T22:58:10.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "TypeDomage.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Database\\Entities\\TypeDomage.cs",
+              "RelativeDocumentMoniker": "Repair.Database\\Entities\\TypeDomage.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Database\\Entities\\TypeDomage.cs",
+              "RelativeToolTip": "Repair.Database\\Entities\\TypeDomage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T23:16:02.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
               "Title": "20240308233252_A1.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Database\\Migrations\\20240308233252_A1.cs",
               "RelativeDocumentMoniker": "Repair.Database\\Migrations\\20240308233252_A1.cs",
@@ -401,7 +987,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 54,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Class1.cs",
               "RelativeDocumentMoniker": "Repair.Business\\Class1.cs",
@@ -413,7 +999,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 55,
               "Title": "20240310210935_A4.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Database\\Migrations\\20240310210935_A4.cs",
               "RelativeDocumentMoniker": "Repair.Database\\Migrations\\20240310210935_A4.cs",
@@ -425,7 +1011,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 57,
               "Title": "20240309185617_A2.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Database\\Migrations\\20240309185617_A2.cs",
               "RelativeDocumentMoniker": "Repair.Database\\Migrations\\20240309185617_A2.cs",
@@ -437,7 +1023,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 59,
               "Title": "DatabaseContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Database\\Migrations\\DatabaseContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Repair.Database\\Migrations\\DatabaseContextModelSnapshot.cs",
@@ -449,7 +1035,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 58,
               "Title": "20240310205446_A3.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Database\\Migrations\\20240310205446_A3.cs",
               "RelativeDocumentMoniker": "Repair.Database\\Migrations\\20240310205446_A3.cs",
@@ -461,67 +1047,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "CompetenceController.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\RepairAPI\\Controllers\\CompetenceController.cs",
-              "RelativeDocumentMoniker": "RepairAPI\\Controllers\\CompetenceController.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\RepairAPI\\Controllers\\CompetenceController.cs",
-              "RelativeToolTip": "RepairAPI\\Controllers\\CompetenceController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAxwA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T16:08:21.08Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Competence.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Database\\Entities\\Competence.cs",
-              "RelativeDocumentMoniker": "Repair.Database\\Entities\\Competence.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Database\\Entities\\Competence.cs",
-              "RelativeToolTip": "Repair.Database\\Entities\\Competence.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T18:14:18.549Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "GouvernoratController.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\RepairAPI\\Controllers\\GouvernoratController.cs",
-              "RelativeDocumentMoniker": "RepairAPI\\Controllers\\GouvernoratController.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\RepairAPI\\Controllers\\GouvernoratController.cs",
-              "RelativeToolTip": "RepairAPI\\Controllers\\GouvernoratController.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAYwBYAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T12:12:42.612Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "GouvernoratRepository.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Repository\\GouvernoratRepository.cs",
-              "RelativeDocumentMoniker": "Repair.Business\\Repository\\GouvernoratRepository.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Repository\\GouvernoratRepository.cs",
-              "RelativeToolTip": "Repair.Business\\Repository\\GouvernoratRepository.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAEBdwBoAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T16:20:12.508Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "DatabaseContext.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Database\\DatabaseContext.cs",
-              "RelativeDocumentMoniker": "Repair.Database\\DatabaseContext.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Database\\DatabaseContext.cs",
-              "RelativeToolTip": "Repair.Database\\DatabaseContext.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAA6wCcAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T20:50:36.435Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 60,
               "Title": "RepairAPI.csproj",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\RepairAPI\\RepairAPI.csproj",
               "RelativeDocumentMoniker": "RepairAPI\\RepairAPI.csproj",
@@ -533,31 +1059,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "CompetenceRepository.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Repository\\CompetenceRepository.cs",
-              "RelativeDocumentMoniker": "Repair.Business\\Repository\\CompetenceRepository.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Repository\\CompetenceRepository.cs",
-              "RelativeToolTip": "Repair.Business\\Repository\\CompetenceRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T20:47:26.949Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "ReparateurCompetence.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Database\\Entities\\ReparateurCompetence.cs",
-              "RelativeDocumentMoniker": "Repair.Database\\Entities\\ReparateurCompetence.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Database\\Entities\\ReparateurCompetence.cs",
-              "RelativeToolTip": "Repair.Database\\Entities\\ReparateurCompetence.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T18:15:49.517Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 61,
               "Title": "Repair.Business.csproj",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\E-repair-API\\RepairAPI\\Repair.Business\\Repair.Business.csproj",
               "RelativeDocumentMoniker": "Repair.Business\\Repair.Business.csproj",
