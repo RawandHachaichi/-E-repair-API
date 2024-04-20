@@ -14,7 +14,6 @@ namespace Repair.Database.Entities
         public Guid Id { get; set; }
         public string Nom { get; set; }
         public string Prenom { get; set; }
-        public DateTime DateDeNaissance { get; set; }
         public string? Email { get; set; }
         public int? Age { get; set; }
         public string MotDePasse { get; set; }

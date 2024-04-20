@@ -29,19 +29,19 @@ var jwtIssuer = builder.Configuration.GetSection("Jwt:Issuer").Get<string>();
 var jwtKey = builder.Configuration.GetSection("Jwt:Key").Get<string>();
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
- .AddJwtBearer(options =>
- {
-     options.TokenValidationParameters = new TokenValidationParameters
-     {
-         ValidateIssuer = true,
-         ValidateAudience = true,
-         ValidateLifetime = true,
-         ValidateIssuerSigningKey = true,
-         ValidIssuer = jwtIssuer,
-         ValidAudience = jwtIssuer,
-         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtKey))
-     };
- });
+.AddJwtBearer(options =>
+{
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuer = true,
+        ValidateAudience = true,
+        ValidateLifetime = true,
+        ValidateIssuerSigningKey = true,
+        ValidIssuer = jwtIssuer,
+        ValidAudience = jwtIssuer,
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtKey))
+    };
+});
 
 //Jwt configuration ends here
 
@@ -59,7 +59,7 @@ builder.Services.AddSwaggerGen();
 
 //
 builder.Services.AddDbContext<DatabaseContext>(
-options =>options.UseSqlServer(builder.Configuration.GetConnectionString("SqlServerConnStr")));
+options => options.UseSqlServer(builder.Configuration.GetConnectionString("SqlServerConnStr")));
 
 
 
@@ -74,7 +74,7 @@ builder.Services.AddScoped<ICauseRepository, CauseRepository>();
 builder.Services.AddScoped<IObjetRepository, ObjetRepository>();
 builder.Services.AddScoped<IMatiereRepository, MatiereRepository>();
 builder.Services.AddScoped<ITypeDomageRepository, TypeDomageRepository>();
-builder.Services.AddScoped<ILocalisationRepository,LocalisationRepository>();
+builder.Services.AddScoped<ILocalisationRepository, LocalisationRepository>();
 builder.Services.AddScoped<ITypeBatimentRepository, TypeBatimentRepository>();
 builder.Services.AddScoped<IDossierRepository, DossierRepository>();
 builder.Services.AddScoped<ITypeRendezVousRepository, TypeRendezVousRepository>();
@@ -115,7 +115,7 @@ app.UseAuthorization();
 app.UseEndpoints(endpoints =>
 {
     endpoints.MapControllers();
-   
+
 });
 
 

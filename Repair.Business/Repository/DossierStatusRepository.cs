@@ -22,7 +22,8 @@ namespace Repair.Business.Repository
                 return _databaseContext.DossierStatus.Select(x => new DossierStatusModel()
                 {
                     Id = x.Id,
-                    Nom = x.Nom
+                    Nom = x.Nom,
+                    Code=x.code
                 }).ToList();
 
             

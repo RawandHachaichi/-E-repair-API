@@ -299,6 +299,37 @@
   },
   {
     "ContainingType": "RepairAPI.Controllers.UtilisateurController",
+    "Method": "GetReparateur",
+    "RelativePath": "GetReparateur/{delegationId}/{categorieId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "delegationId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "categorieId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Repair.Business.Models.ItemModel, Repair.Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RepairAPI.Controllers.UtilisateurController",
     "Method": "Login",
     "RelativePath": "login/{Email};{mdp}",
     "HttpMethod": "POST",
@@ -340,6 +371,50 @@
           "application/json",
           "text/json"
         ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RepairAPI.Controllers.UtilisateurController",
+    "Method": "DeleteUser",
+    "RelativePath": "RemoveUser/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RepairAPI.Controllers.UtilisateurController",
+    "Method": "UpdateUser",
+    "RelativePath": "UpdateUser",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "Repair.Business.Models.UtilisateurModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
         "StatusCode": 200
       }
     ]

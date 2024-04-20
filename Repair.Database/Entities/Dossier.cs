@@ -12,10 +12,11 @@ namespace Repair.Database.Entities
     {
         [Key]
         public Guid Id { get; set; }
-        public int? DossierNumber { get; set; }
-        public string CreatedBy { get; set; }
+        public string? DossierNumber { get; set; }
+        public string CreePar { get; set; }
+        public Guid? ReparateurId { get; set; }
         public Guid? UtilisateurId { get; set; }
-        public Utilisateur Utilisateur { get; set; }
+        public Utilisateur Utilisateurs { get; set; }
         public Guid? DossierStatusId { get; set; }
         public DossierStatus DossierStatus { get; set; }
         public Guid? CategorieId { get; set; }
@@ -28,20 +29,20 @@ namespace Repair.Database.Entities
         public TypeBatiment TypeBatiment { get; set; }
         public Guid? TypeDomageId { get; set; }
         public TypeDomage TypeDomage { get; set; }
-        public Guid? MaterielId { get; set; }
+        public Guid? MatiereId { get; set; }
         public Matiere Matiere{ get; set; }
         public Guid? LocalisationId { get; set; }
         public Localisation Localisation { get; set; }
 
-        public bool? IsEmergency { get; set; }
+        public bool? Urgent { get; set; }=false;
         public string? Description { get; set; }
-        // public DateTime? DateIncident { get; set; }
 
-        public string? TypeRDV { get; set; }
+        public Guid? TypeRendezVousId { get; set; }
         public TypeRendezVous TypeRendezVous{ get; set; }
-        public bool? Active { get; set; } = true;
-        public DateTime? CreatedDate { get; set; } = DateTime.Now;
-        public Guid? LastModificationBy { get; set; }
+        public DateTime? DateCreation { get; set; } = DateTime.Now;
+        public Guid? DerniereModification { get; set; }
+        public DateTime Debut { get; set; }
+        public DateTime Fin{ get; set; }
 
     }
 }

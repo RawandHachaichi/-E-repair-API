@@ -1,21 +1,23 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Repair.Business.Interfaces;
 using Repair.Business.Models;
 using Repair.Database;
 using Repair.Database.Entities;
-
+using System;
+using System.Data;
 
 namespace Repair.Business.Repository
 {
     public class UtilisateurRepository : IUtilisateurRepository
     {
         private static DatabaseContext _databaseContext;
-        //private IConfiguration _configuration;
+       
         public UtilisateurRepository(DatabaseContext databaseContext)
         {
             _databaseContext = databaseContext;
-            //_configuration = _configuration;
+            
         }
 
         public Utilisateur AddUser(UtilisateurModel User)
@@ -44,11 +46,13 @@ namespace Repair.Business.Repository
                     CreePar = User.Email,
                     DateCreation = DateTime.Now,
                 };
+                
+
                 if (User.Role == "reparateur")
                 {
                     foreach (var compId in User.Competences)
                     {
-                        var comp = new ReparateurCompetence
+                        var comp = new ReparateurCompetence()
                         {
                             CompetenceId = compId,
                             UtilisateurId = newUser.Id,
@@ -64,7 +68,7 @@ namespace Repair.Business.Repository
 
                 // Enregistrer les modifications dans la base de données
 
-                _databaseContext.SaveChangesAsync();
+                _databaseContext.SaveChanges();
 
                 return newUser;
 
@@ -94,49 +98,116 @@ namespace Repair.Business.Repository
             else return utilisateur;
 
         }
+        public List<ItemModel> GetReparateur( Guid delegationId, Guid categorieId)
+        {
+            {
+                
+                var reparateurs = (
+                    // Début de la requête LINQ pour sélectionner les utilisateurs
+                    from rep in _databaseContext.Utilisateurs
+                        // Filtrer les utilisateurs par l'identifiant de la délégation
+                    // Joindre avec la table des compétences des réparateurs (clé étranger obligatoire)
+                    join repComp in _databaseContext.ReparateurCompetences
+                        on rep.Id equals repComp.UtilisateurId
+                    // Joindre avec la table des compétences des catégories
+                    join catComp in _databaseContext.CategorieComp
+                        on repComp.CompetenceId equals catComp.CompetenceId
+                    // Filtrer les utilisateurs par l'identifiant de la catégorie
+                    where catComp.CategorieId == categorieId &&  rep.DelegationId == delegationId
 
-        /* public string GenererToken()
-         {
-             // Obtenir la clé secrète depuis la configuration
-             var cleSecrete = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));
+                    // Sélectionner les propriétés nécessaires pour créer un UtilisateurModel
+                    select new ItemModel
+                    {
+                        Id = rep.Id,
+                        Nom = rep.Nom + " " + rep.Prenom
 
-             // Créer des informations d'identification en utilisant la clé secrète et l'algorithme HMAC-SHA256
-             var informationsIdentification = new SigningCredentials(cleSecrete, SecurityAlgorithms.HmacSha256);
+                // Ajoutez d'autres propriétés si nécessaire
+            }
+                // Convertir les résultats en une liste
+                ).ToList();
 
-             // Définir les revendications pour le jeton
-             var revendications = new[]
-             {
-         // Revendication de sujet, généralement le nom d'utilisateur ou un identifiant unique
-         new Claim(JwtRegisteredClaimNames.Sub, _configuration["Jwt:id"]),
+                // Retourner la liste filtrée des utilisateurs
+                return reparateurs;
+            }
 
-         // Revendication ID JWT, un identifiant unique pour le jeton
-         new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
-
-         // Revendication d'émission, l'horodatage lorsque le jeton a été émis
-         new Claim(JwtRegisteredClaimNames.Iat, DateTime.UtcNow.ToString()),
-
-         // Revendications personnalisées supplémentaires, telles que l'ID utilisateur et le rôle
-         new Claim("Id", _databaseContext.Utilisateurs.FirstOrDefault(x => x.Email == "votre_email_ici")?.Id.ToString()),
-
-     };
-
-             // Créer un JWT avec l'émetteur spécifié, les revendications, le temps d'expiration et les informations d'identification de signature
-             var jeton = new JwtSecurityToken(
-                 issuer: _configuration["Jwt:Issuer"],
-                 audience: _configuration["Jwt:Issuer"], // L'audience est généralement identique à l'émetteur
-                 claims: revendications,
-                 expires: DateTime.Now.AddMinutes(120), // Temps d'expiration du jeton
-                 signingCredentials: informationsIdentification);
-
-             // Sérialiser le jeton en une chaîne
-             var chaineJeton = new JwtSecurityTokenHandler().WriteToken(jeton);
-
-             return chaineJeton;
-         }*/
+        }
 
 
 
 
+        public void DeleteUser(Guid id)
+        {
 
+                // Récupérer l'utilisateur à supprimer de la base de données
+                var user = _databaseContext.Utilisateurs.FirstOrDefault(x => x.Id == id);
+
+                if (user != null)
+                {
+                    // Récupérer les entrées dans ReparateurCompetences liées à cet utilisateur
+                    var reparateurCompetences = _databaseContext.ReparateurCompetences.Where(rc => rc.UtilisateurId == id).ToList();
+
+                    // Supprimer les entrées de ReparateurCompetences liées à cet utilisateur
+                    _databaseContext.ReparateurCompetences.RemoveRange(reparateurCompetences);
+
+                    // Ensuite, supprimer l'utilisateur lui-même
+                    _databaseContext.Utilisateurs.Remove(user);
+
+                    // Appliquer les modifications à la base de données
+                    _databaseContext.SaveChanges();
+                }
+            
+
+
+
+
+        }
+
+        public void UpdateUser(UtilisateurModel user)
+
+        {
+            // Vérifier si l'utilisateur existe dans la base de données
+            var userToUpdate = _databaseContext.Utilisateurs.Where(x => x.Id == user.Id).FirstOrDefault();
+           
+            if (userToUpdate != null)
+            {
+                var passwordHasher = new PasswordHasher<Utilisateur>();
+                var hashedPassword = passwordHasher.HashPassword(new Utilisateur(), userToUpdate.MotDePasse);
+
+                var clientToUpdate = _databaseContext.Utilisateurs.Where(x => x.Id == userToUpdate.Id).FirstOrDefault();
+                    clientToUpdate.Nom= user.Nom;
+                    clientToUpdate.Prenom= user.Prenom;
+                    clientToUpdate.Age = user.Age;
+                    clientToUpdate.NumeroTelephone1 = user.NumTelephone1;
+                    clientToUpdate.NumeroTelephone2 = user.NumTelephone2;
+                    clientToUpdate.DelegationId= user.Delegations.Id;
+                    clientToUpdate.Rue= user.Rue;
+                    clientToUpdate.NumMaison = user.NumMaison;
+                    clientToUpdate.Email = user.Email;
+                    clientToUpdate.MotDePasse = hashedPassword;
+
+
+            }
+            if (userToUpdate.Role == "reparateur")
+            {
+                // Supprimer les compétences existantes du réparateur
+                var existingCompetences = _databaseContext.ReparateurCompetences.Where(rc => rc.UtilisateurId == userToUpdate.Id);
+                _databaseContext.ReparateurCompetences.RemoveRange(existingCompetences);
+
+                // Ajouter les nouvelles compétences du réparateur
+                foreach (var compId in user.Competences)
+                {
+                    var comp = new ReparateurCompetence()
+                    {
+                        CompetenceId = compId,
+                        UtilisateurId = userToUpdate.Id,
+                    };
+                    _databaseContext.ReparateurCompetences.Add(comp);
+                }
+            }
+
+            // Sauvegarder les modifications dans la base de données
+            _databaseContext.SaveChanges();
+
+        }
     }
 }

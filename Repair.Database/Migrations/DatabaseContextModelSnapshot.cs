@@ -152,47 +152,47 @@ namespace Repair.Database.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<bool?>("Active")
-                        .HasColumnType("bit");
-
                     b.Property<Guid?>("CategorieId")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<Guid?>("CauseId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("CreatedBy")
+                    b.Property<string>("CreePar")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime?>("CreatedDate")
+                    b.Property<DateTime?>("DateCreation")
                         .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("Debut")
+                        .HasColumnType("datetime2");
+
+                    b.Property<Guid?>("DerniereModification")
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("DossierNumber")
-                        .HasColumnType("int");
+                    b.Property<string>("DossierNumber")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<Guid?>("DossierStatusId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<bool?>("IsEmergency")
-                        .HasColumnType("bit");
-
-                    b.Property<Guid?>("LastModificationBy")
-                        .HasColumnType("uniqueidentifier");
+                    b.Property<DateTime>("Fin")
+                        .HasColumnType("datetime2");
 
                     b.Property<Guid?>("LocalisationId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<Guid?>("MaterielId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<Guid>("MatiereId")
+                    b.Property<Guid?>("MatiereId")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<Guid?>("ObjetId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid?>("ReparateurId")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<Guid?>("TypeBatimentId")
@@ -201,11 +201,11 @@ namespace Repair.Database.Migrations
                     b.Property<Guid?>("TypeDomageId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("TypeRDV")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<Guid>("TypeRendezVousId")
+                    b.Property<Guid?>("TypeRendezVousId")
                         .HasColumnType("uniqueidentifier");
+
+                    b.Property<bool?>("Urgent")
+                        .HasColumnType("bit");
 
                     b.Property<Guid?>("UtilisateurId")
                         .HasColumnType("uniqueidentifier");
@@ -459,9 +459,6 @@ namespace Repair.Database.Migrations
                     b.Property<DateTime>("DateCreation")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime>("DateDeNaissance")
-                        .HasColumnType("datetime2");
-
                     b.Property<Guid>("DelegationId")
                         .HasColumnType("uniqueidentifier");
 
@@ -553,9 +550,7 @@ namespace Repair.Database.Migrations
 
                     b.HasOne("Repair.Database.Entities.Matiere", "Matiere")
                         .WithMany()
-                        .HasForeignKey("MatiereId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("MatiereId");
 
                     b.HasOne("Repair.Database.Entities.Objet", "Objet")
                         .WithMany()
@@ -571,11 +566,9 @@ namespace Repair.Database.Migrations
 
                     b.HasOne("Repair.Database.Entities.TypeRendezVous", "TypeRendezVous")
                         .WithMany()
-                        .HasForeignKey("TypeRendezVousId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("TypeRendezVousId");
 
-                    b.HasOne("Repair.Database.Entities.Utilisateur", "Utilisateur")
+                    b.HasOne("Repair.Database.Entities.Utilisateur", "Utilisateurs")
                         .WithMany()
                         .HasForeignKey("UtilisateurId");
 
@@ -597,7 +590,7 @@ namespace Repair.Database.Migrations
 
                     b.Navigation("TypeRendezVous");
 
-                    b.Navigation("Utilisateur");
+                    b.Navigation("Utilisateurs");
                 });
 
             modelBuilder.Entity("Repair.Database.Entities.ReparateurCompetence", b =>

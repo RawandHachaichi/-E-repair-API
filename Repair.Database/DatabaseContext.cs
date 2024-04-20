@@ -33,6 +33,8 @@ namespace Repair.Database
              .HasForeignKey(u => u.DelegationId)
              .OnDelete(DeleteBehavior.Restrict);
 
+          
+
             modelBuilder.Entity<Delegation>()
                .HasOne(d => d.Gouvernorat)
                .WithMany(g => g.Delegations)
