@@ -25,8 +25,10 @@ namespace Repair.Business.Models
         public GouvernoratModel? Gouvernorats { get; set; }
         public string? Rue { get; set; }
         public int? NumMaison { get; set; }
- 
-      
+        public Guid ReparateurId { get; set; }
+        public ItemModel? Reparateut { get; set; }
+
+
 
 
     }

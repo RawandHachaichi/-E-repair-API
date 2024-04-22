@@ -23,15 +23,19 @@ namespace Repair.Database
         public DbSet<TypeRendezVous> TypeRendezVous { get; set; }
         public DbSet<DossierStatus> DossierStatus { get; set; }
         public DbSet<Matiere> Matiere { get; set; }
+        public DbSet<Event> Event { get; set; }
+        public DbSet<Document> Document { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Utilisateur>()
-             .HasOne(u => u.Delegation)
+             .HasOne(u => u.Delegations)
              .WithMany(d => d.Utilisateur)
              .HasForeignKey(u => u.DelegationId)
              .OnDelete(DeleteBehavior.Restrict);
+
+          
 
             modelBuilder.Entity<Delegation>()
                .HasOne(d => d.Gouvernorat)

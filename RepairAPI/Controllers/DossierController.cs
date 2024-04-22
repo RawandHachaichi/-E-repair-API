@@ -27,7 +27,14 @@ namespace RepairAPI.Controllers
         [Route("/Dossier/{UtilisateurId}")]
         public List<DossierModel> GetDossierById(Guid? UtilisateurId)
         {
-            return _IDossierRepository.GetDossierById(UtilisateurId);
+            return _IDossierRepository.GetDossierByUserId(UtilisateurId);
+        }
+
+        [HttpGet]
+        [Route("/GetDossier/{Id}")]
+        public List<DossierModel> GetDossier(Guid? Id)
+        {
+            return _IDossierRepository.GetDossierById(Id);
         }
     }
    

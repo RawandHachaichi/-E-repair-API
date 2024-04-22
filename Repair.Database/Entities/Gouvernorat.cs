@@ -12,5 +12,6 @@ namespace Repair.Database.Entities
         public string CreePar { get; set; }
         public DateTime DateCreation { get; set; }
         public ICollection<Delegation> Delegations { get; set; }
+       
     }
 }
