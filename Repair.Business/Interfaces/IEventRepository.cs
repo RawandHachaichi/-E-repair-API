@@ -10,8 +10,8 @@ namespace Repair.Business.Interfaces
 {
     public interface IEventRepository
     {
-        public List<EventModel> GetEventsByUser(Guid id);
-        public Event AddEvent(EventModel eve);
+        public List<RendezVousModel> GetEventsByUser(Guid id);
+        public Event AddEvent(RendezVousModel eve);
         public void RemoveEvent(Guid id);
     }
 }

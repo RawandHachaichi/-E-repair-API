@@ -17,5 +17,7 @@ namespace Repair.Database.Entities
         public string? Description { get; set; }
         public Guid? UtilisateurId { get; set; }
         public Utilisateur utilisateur { get; set; }
+        public Guid TypeRendezVousId { get; set; }
+        public TypeRendezVous TypeRendezVous { get; set; }
     }
 }

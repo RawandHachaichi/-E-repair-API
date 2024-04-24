@@ -9,7 +9,7 @@
     "Parameters": [
       {
         "Name": "eve",
-        "Type": "Repair.Business.Models.EventModel",
+        "Type": "Repair.Business.Models.RendezVousModel",
         "IsRequired": true
       }
     ],
@@ -76,6 +76,32 @@
     "ReturnTypes": [
       {
         "Type": "System.Collections.Generic.List\u00601[[Repair.Business.Models.CompetenceModel, Repair.Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RepairAPI.Controllers.DocumentController",
+    "Method": "AddDocument",
+    "RelativePath": "api/Document",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Document",
+        "Type": "Repair.Business.Models.DocumentModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Repair.Database.Entities.Document",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -320,6 +346,28 @@
     ]
   },
   {
+    "ContainingType": "RepairAPI.Controllers.DocumentController",
+    "Method": "DeleteDocument",
+    "RelativePath": "DeleteDocument/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "RepairAPI.Controllers.DossierController",
     "Method": "GetDossierById",
     "RelativePath": "Dossier/{UtilisateurId}",
@@ -361,7 +409,33 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[Repair.Business.Models.EventModel, Repair.Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[Repair.Business.Models.RendezVousModel, Repair.Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RepairAPI.Controllers.DocumentController",
+    "Method": "GetDocumentsByDossier",
+    "RelativePath": "GetDocument/{id})",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Repair.Business.Models.DocumentModel, Repair.Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -374,13 +448,13 @@
   {
     "ContainingType": "RepairAPI.Controllers.DossierController",
     "Method": "GetDossier",
-    "RelativePath": "GetDossier/{Id}",
+    "RelativePath": "GetDossier/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "Id",
+        "Name": "id",
         "Type": "System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "IsRequired": true
       }

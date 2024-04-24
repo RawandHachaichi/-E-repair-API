@@ -31,10 +31,10 @@ namespace RepairAPI.Controllers
         }
 
         [HttpGet]
-        [Route("/GetDossier/{Id}")]
-        public List<DossierModel> GetDossier(Guid? Id)
+        [Route("/GetDossier/{id}")]
+        public List<DossierModel> GetDossier(Guid? id)
         {
-            return _IDossierRepository.GetDossierById(Id);
+            return _IDossierRepository.GetDossierById(id);
         }
     }
    

@@ -26,7 +26,7 @@ namespace Repair.Business.Models
         public string? Rue { get; set; }
         public int? NumMaison { get; set; }
         public Guid ReparateurId { get; set; }
-        public ItemModel? Reparateut { get; set; }
+        public ItemModel? Reparateur { get; set; }
 
 
 

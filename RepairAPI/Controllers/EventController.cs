@@ -19,14 +19,14 @@ namespace RepairAPI.Controllers
 
 
         [HttpGet("/Event/{id}")]
-        public List<EventModel> GetEventsById(Guid id)
+        public List<RendezVousModel> GetEventsById(Guid id)
         {
             return _IEventRepository.GetEventsByUser(id);
         }
 
 
         [HttpPost("/AddEvent")]
-        public Event AddEvent(EventModel eve)
+        public Event AddEvent(RendezVousModel eve)
         {
             return _IEventRepository.AddEvent(eve);
         }

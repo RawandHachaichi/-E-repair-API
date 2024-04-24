@@ -88,7 +88,7 @@ namespace Repair.Business.Repository
             return res;
         }
 
-        public List<DossierModel> GetDossierById(Guid? Id)
+        public List<DossierModel> GetDossierById(Guid? id)
         {
             return _databaseContext.Dossiers.Include(x => x.DossierStatus)
                 .Include(x => x.Matiere)
@@ -104,7 +104,7 @@ namespace Repair.Business.Repository
                     .ThenInclude(u => u.Delegations) // Inclure la délégation pour les utilisateurs
                         .ThenInclude(d => d.Gouvernorat) // Inclure le gouvernorat pour la délégation
                 .Include(x => x.Categorie)
-                .Where(x => x.Id == Id).Select(x => new DossierModel()
+                .Where(x => x.Id == id).Select(x => new DossierModel()
                 {
                     Id = x.Id,
                     Urgent = (bool)x.Urgent ? "Oui" : "Non",
@@ -118,12 +118,12 @@ namespace Repair.Business.Repository
                     Emplacement = new ItemModel { Id = (Guid)x.LocalisationId, Nom = x.Localisation.Nom },
                     TypeBatiment = new ItemModel { Id = (Guid)x.TypeBatimentId, Nom = x.TypeBatiment.Nom },
                     TypeDomage = new ItemModel { Id = (Guid)x.TypeDomageId, Nom = x.TypeDomage.Nom },
-                    RendezVous = new ItemModel { Id = (Guid)x.TypeRendezVousId, Nom = x.TypeRendezVous.Nom },
+                    RendezVous = new ItemModel { Id = (Guid)x.TypeRendezVousId, Nom = x.TypeRendezVous.Nom  },
 
 
                     Reparateur = _databaseContext.Utilisateurs
                             .Where(u => u.Id == x.ReparateurId)
-                            .Select(u => new ItemModel { Id = u.Id, Nom = u.Nom })
+                            .Select(u => new ItemModel { Id = u.Id, Nom = u.Nom + " " + u.Prenom })
                             .FirstOrDefault(),
 
                     Debut = x.Debut,
