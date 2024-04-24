@@ -15,27 +15,28 @@ namespace Repair.Business.Models
         public ItemModel DossierStatus { get; set; }
         public Guid? UtilisateurId { get; set; }
         public ItemModel? Categorie { get; set; }
-     
+
         public ItemModel? Cause { get; set; }
-     
+
         public ItemModel? Objet { get; set; }
-       
+
         public ItemModel? TypeBatiment { get; set; }
-  
+
         public ItemModel? TypeDomage { get; set; }
-     
+
         public ItemModel? Matiere { get; set; }
         public ItemModel? RendezVous { get; set; }
-    
+
         public ItemModel? Emplacement { get; set; }
         public string? Urgent { get; set; }
-        public DateTime? DateCreation { get; set; } 
+        public DateTime? DateCreation { get; set; }
         public Guid? DerniereModification { get; set; }
         public DateTime Debut { get; set; }
         //public DateTime Fin { get; set; }
         public string CreePar { get; set; }
         public ItemModel Reparateur { get; set; }
         public UtilisateurModel UserInfo { get; set; }
+        public string Description { get; set; }
     }
 
     public class ReclamationModel
@@ -44,16 +45,16 @@ namespace Repair.Business.Models
         public string? Email { get; set; }
 
         public ItemModel? Categorie { get; set; }
-        public UtilisateurModel Info  { get; set; }
+        public UtilisateurModel Info { get; set; }
 
-        public DamageInformationModel? Damage  { get; set; }
-       // public  ItemModel? Plannification { get; set; }
+        public DamageInformationModel? Damage { get; set; }
+        // public  ItemModel? Plannification { get; set; }
 
         public ReparateurRendezVousModel? ChoixReparateur { get; set; }
 
     }
-      public class DamageInformationModel
-      {
+    public class DamageInformationModel
+    {
         public ItemModel? Cause { get; set; }
         public ItemModel? BuildingType { get; set; }
         public ItemModel? TypeDomage { get; set; }
@@ -62,8 +63,9 @@ namespace Repair.Business.Models
         public ItemModel? Matiere { get; set; }
         public string? Description { get; set; }
         public Boolean? IsEmergency { get; set; } = false;
-      }
-   
+
+    }
+
 
     public class ReparateurRendezVousModel
     {
@@ -74,8 +76,8 @@ namespace Repair.Business.Models
     public class RRendezVousModel
     {
         public ItemModel? TypeRendezVous { get; set; }
-         public string? Description { get; set; }
-          public DateTime Start { get; set; }
+        public string? Description { get; set; }
+        public DateTime Start { get; set; }
         public DateTime End { get; set; }
     }
 
