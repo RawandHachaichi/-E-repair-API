@@ -6,6 +6,7 @@ using Repair.Business.Interfaces;
 using Repair.Business.Models;
 using Repair.Business.Repository;
 using Repair.Database.Entities;
+using System.ComponentModel.DataAnnotations;
 
 namespace RepairAPI.Controllers
 {
@@ -28,18 +29,14 @@ namespace RepairAPI.Controllers
 
         }
 
-        [Authorize]
-        [HttpPost("/login/{Email};{mdp}")]
-        public ActionResult Login(string Email, string Mdp)
+        
+        [HttpPost("/login/{email};{motDePasse}")]
+        public Utilisateur Login(string email, string motDePasse)
         {
-            // Appel de la méthode de login du repository utilisateur pour tenter de s'authentifier.
-            var res = _IUtilisateurRepository.Login(Email, Mdp);
-
-            // Retourne une réponse OK avec le résultat de l'authentification
-            return Ok(res);
-
-
+           return _IUtilisateurRepository.Login(email, motDePasse);
         }
+
+        
 
 
         [HttpGet("/GetReparateur/{delegationId}/{categorieId}")]

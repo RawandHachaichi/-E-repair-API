@@ -9,45 +9,25 @@ using System.Text;
 var builder = WebApplication.CreateBuilder(args);
 var MyPolicy = "MyPolicy";
 
+// Configuration de la base de données
+builder.Services.AddDbContext<DatabaseContext>(
+    options => options.UseSqlServer(builder.Configuration.GetConnectionString("SqlServerConnStr")));
 
-//enable Cors
+// Ajout des services
+builder.Services.AddControllers(); // Add this line
+
+// Configuration du service CORS
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy(name: MyPolicy,
-        builder =>
-        {
-            builder.WithOrigins("http://localhost:4200")
-            .AllowAnyMethod()
-            .AllowAnyHeader()
-            .AllowCredentials();
-        });
+    options.AddPolicy(MyPolicy, builder =>
+    {
+        builder.AllowAnyOrigin()
+               .AllowAnyHeader()
+               .AllowAnyMethod();
+    });
 });
 
-
-
-
-//Jwt configuration ends here
-
-builder.Services.AddControllers();
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-
-
-// Add services to the container.
-
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-
-//
-builder.Services.AddDbContext<DatabaseContext>(
-options => options.UseSqlServer(builder.Configuration.GetConnectionString("SqlServerConnStr")));
-
-
-
-
-// dependency
+// Ajout des services
 builder.Services.AddScoped<IGouvernoratRepository, GouvernoratRepository>();
 builder.Services.AddScoped<IDelegationRepository, DelegationRepository>();
 builder.Services.AddScoped<ICompetenceRepository, CompetenceRepository>();
@@ -65,46 +45,44 @@ builder.Services.AddScoped<IDossierStatusRepository, DossierStatusRepository>();
 builder.Services.AddScoped<IEventRepository, EventRepository>();
 builder.Services.AddScoped<IDocumentRepository, DocumentRepository>();
 
+// Configuration de JWT Bearer Authentication si nécessaire
+// builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+//    .AddJwtBearer(options =>
+//    {
+//        options.TokenValidationParameters = new TokenValidationParameters
+//        {
+//            ValidateIssuer = true,
+//            ValidateAudience = true,
+//            ValidateLifetime = true,
+//            ValidateIssuerSigningKey = true,
+//            ValidIssuer = "your_issuer",
+//            ValidAudience = "your_audience",
+//            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("your_secret_key"))
+//        };
+//    });
 
-
-
-
-
-
+// Ajout de Swagger pour la documentation de l'API
+builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// Configuration de l'environnement de développement
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
 
-
-
-
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
-
+// Utilisation du service CORS
 app.UseCors(MyPolicy);
+
+// Routage, authentification, autorisation et configuration des endpoints
 app.UseRouting();
-
 app.UseAuthentication();
-app.UseHttpsRedirection();
 
-app.UseAuthorization();
 app.UseEndpoints(endpoints =>
 {
     endpoints.MapControllers();
-
 });
-
-
-app.MapControllers();
 
 app.Run();

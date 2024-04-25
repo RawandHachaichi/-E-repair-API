@@ -83,21 +83,38 @@ namespace Repair.Business.Repository
 
 
         }
+        public bool VerifyHashedPassword(string hashedPassword, string password)
+        {
+            // Utiliser la méthode VerifyHashedPassword de PasswordHasher pour comparer le mot de passe haché avec le mot de passe fourni
+            var passwordHasher = new PasswordHasher<Utilisateur>();
+            var result = passwordHasher.VerifyHashedPassword(null, hashedPassword, password);
+
+            // Retourner vrai si la vérification est réussie, sinon retourner faux
+            return result == PasswordVerificationResult.Success;
+        }
+
 
         // for login
-        public Utilisateur Login(string Email, string Mdp)
+        public Utilisateur Login(string email, string motDePasse)
         {
-            // Recherche de l'utilisateur dans la base de données en fonction de l'email et du mot de passe fournis.
-            var utilisateur = _databaseContext.Utilisateurs.FirstOrDefault(x => x.Email == Email && x.MotDePasse == Mdp);
-            if (utilisateur == null)
+            // Récupérer l'utilisateur de la base de données en fonction de l'e-mail fourni.
+            var utilisateur = _databaseContext.Utilisateurs.FirstOrDefault(x => x.Email == email);
+
+            if (utilisateur != null)
             {
-                // Si l'utilisateur n'est pas trouvé, retourne null, indiquant que l'authentification a échoué.
-
-                return null;
+                // Vérifier si le mot de passe fourni correspond au mot de passe de l'utilisateur trouvé.
+                if (VerifyHashedPassword(utilisateur.MotDePasse, motDePasse))
+                {
+                    // Authentification réussie, retourner l'utilisateur trouvé.
+                    return utilisateur;
+                }
             }
-            else return utilisateur;
 
+            // Si l'utilisateur n'est pas trouvé ou si le mot de passe est incorrect, retourner null.
+            return null;
         }
+
+
         public List<ItemModel> GetReparateur( Guid delegationId, Guid categorieId)
         {
             {

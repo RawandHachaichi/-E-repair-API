@@ -505,23 +505,33 @@
   {
     "ContainingType": "RepairAPI.Controllers.UtilisateurController",
     "Method": "Login",
-    "RelativePath": "login/{Email};{mdp}",
+    "RelativePath": "login/{email};{motDePasse}",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "Email",
+        "Name": "email",
         "Type": "System.String",
         "IsRequired": true
       },
       {
-        "Name": "Mdp",
+        "Name": "motDePasse",
         "Type": "System.String",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "Repair.Database.Entities.Utilisateur",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "RepairAPI.Controllers.UtilisateurController",

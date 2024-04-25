@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{76DEDA98-2C87-43F1-B010-328B03DD36FF}|RepairAPI\\RepairAPI.csproj|c:\\users\\lenovo\\desktop\\repairapi\\repairapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76DEDA98-2C87-43F1-B010-328B03DD36FF}|RepairAPI\\RepairAPI.csproj|solutionrelative:repairapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|c:\\users\\lenovo\\desktop\\repairapi\\repair.business\\repository\\dossierrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|solutionrelative:repair.business\\repository\\dossierrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{76DEDA98-2C87-43F1-B010-328B03DD36FF}|RepairAPI\\RepairAPI.csproj|c:\\users\\lenovo\\desktop\\repairapi\\repairapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{76DEDA98-2C87-43F1-B010-328B03DD36FF}|RepairAPI\\RepairAPI.csproj|solutionrelative:repairapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|c:\\users\\lenovo\\desktop\\repairapi\\repair.business\\repository\\documentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|solutionrelative:repair.business\\repository\\documentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|c:\\users\\lenovo\\desktop\\repairapi\\repair.business\\repository\\utilisateurrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|solutionrelative:repair.business\\repository\\utilisateurrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76DEDA98-2C87-43F1-B010-328B03DD36FF}|RepairAPI\\RepairAPI.csproj|c:\\users\\lenovo\\desktop\\repairapi\\repairapi\\controllers\\utilisateurcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76DEDA98-2C87-43F1-B010-328B03DD36FF}|RepairAPI\\RepairAPI.csproj|solutionrelative:repairapi\\controllers\\utilisateurcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|c:\\users\\lenovo\\desktop\\repairapi\\repair.business\\interfaces\\iutilisateurrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|solutionrelative:repair.business\\interfaces\\iutilisateurrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|c:\\users\\lenovo\\desktop\\repairapi\\repair.business\\models\\dossiermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{76DEDA98-2C87-43F1-B010-328B03DD36FF}|RepairAPI\\RepairAPI.csproj|c:\\users\\lenovo\\desktop\\repairapi\\repairapi\\controllers\\dossiercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76DEDA98-2C87-43F1-B010-328B03DD36FF}|RepairAPI\\RepairAPI.csproj|solutionrelative:repairapi\\controllers\\dossiercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76DEDA98-2C87-43F1-B010-328B03DD36FF}|RepairAPI\\RepairAPI.csproj|c:\\users\\lenovo\\desktop\\repairapi\\repairapi\\controllers\\utilisateurcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76DEDA98-2C87-43F1-B010-328B03DD36FF}|RepairAPI\\RepairAPI.csproj|solutionrelative:repairapi\\controllers\\utilisateurcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{76DEDA98-2C87-43F1-B010-328B03DD36FF}|RepairAPI\\RepairAPI.csproj|c:\\users\\lenovo\\desktop\\repairapi\\repairapi\\controllers\\documentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,10 +63,6 @@
       "RelativeMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|solutionrelative:repair.business\\repository\\eventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|c:\\users\\lenovo\\desktop\\repairapi\\repair.business\\interfaces\\iutilisateurrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|solutionrelative:repair.business\\interfaces\\iutilisateurrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|c:\\users\\lenovo\\desktop\\repairapi\\repair.business\\interfaces\\idelegationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|solutionrelative:repair.business\\interfaces\\idelegationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -59,20 +71,12 @@
       "RelativeMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|solutionrelative:repair.business\\models\\documentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76DEDA98-2C87-43F1-B010-328B03DD36FF}|RepairAPI\\RepairAPI.csproj|c:\\users\\lenovo\\desktop\\repairapi\\repairapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76DEDA98-2C87-43F1-B010-328B03DD36FF}|RepairAPI\\RepairAPI.csproj|solutionrelative:repairapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7D68C110-2964-457E-881B-D62FD0BEA083}|Repair.Database\\Repair.Database.csproj|c:\\users\\lenovo\\desktop\\repairapi\\repair.database\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D68C110-2964-457E-881B-D62FD0BEA083}|Repair.Database\\Repair.Database.csproj|solutionrelative:repair.database\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|c:\\users\\lenovo\\desktop\\repairapi\\repair.business\\interfaces\\idossierrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|solutionrelative:repair.business\\interfaces\\idossierrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|c:\\users\\lenovo\\desktop\\repairapi\\repair.business\\repository\\utilisateurrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8F1BC8C-C964-4BEA-AFA9-9B92335C53AC}|Repair.Business\\Repair.Business.csproj|solutionrelative:repair.business\\repository\\utilisateurrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{76DEDA98-2C87-43F1-B010-328B03DD36FF}|RepairAPI\\RepairAPI.csproj|c:\\users\\lenovo\\desktop\\repairapi\\repairapi\\controllers\\delegationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -361,7 +365,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -376,21 +380,124 @@
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\RepairAPI\\Program.cs",
+              "RelativeDocumentMoniker": "RepairAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\RepairAPI\\Program.cs*",
+              "RelativeToolTip": "RepairAPI\\Program.cs*",
+              "ViewState": "AQIAADYAAAAAAAAAAAAkwFcAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T00:08:54.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "DossierRepository.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Business\\Repository\\DossierRepository.cs",
               "RelativeDocumentMoniker": "Repair.Business\\Repository\\DossierRepository.cs",
               "ToolTip": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Business\\Repository\\DossierRepository.cs",
               "RelativeToolTip": "Repair.Business\\Repository\\DossierRepository.cs",
-              "ViewState": "AQIAAGQAAAAAAAAAAAAAAIMAAAAoAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-12T10:24:03.633Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\RepairAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "RepairAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\RepairAPI\\appsettings.json",
+              "RelativeToolTip": "RepairAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-24T19:22:14.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "DocumentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Business\\Repository\\DocumentRepository.cs",
+              "RelativeDocumentMoniker": "Repair.Business\\Repository\\DocumentRepository.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Business\\Repository\\DocumentRepository.cs",
+              "RelativeToolTip": "Repair.Business\\Repository\\DocumentRepository.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAABQAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T12:50:20.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IUtilisateurRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Business\\Interfaces\\IUtilisateurRepository.cs",
+              "RelativeDocumentMoniker": "Repair.Business\\Interfaces\\IUtilisateurRepository.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Business\\Interfaces\\IUtilisateurRepository.cs",
+              "RelativeToolTip": "Repair.Business\\Interfaces\\IUtilisateurRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T01:40:32.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UtilisateurController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\RepairAPI\\Controllers\\UtilisateurController.cs",
+              "RelativeDocumentMoniker": "RepairAPI\\Controllers\\UtilisateurController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\RepairAPI\\Controllers\\UtilisateurController.cs",
+              "RelativeToolTip": "RepairAPI\\Controllers\\UtilisateurController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAACIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T01:40:44.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UtilisateurRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Business\\Repository\\UtilisateurRepository.cs",
+              "RelativeDocumentMoniker": "Repair.Business\\Repository\\UtilisateurRepository.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Business\\Repository\\UtilisateurRepository.cs",
+              "RelativeToolTip": "Repair.Business\\Repository\\UtilisateurRepository.cs",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAAAGEAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T10:27:24.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DossierModel.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Business\\Models\\DossierModel.cs",
+              "RelativeDocumentMoniker": "Repair.Business\\Models\\DossierModel.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Business\\Models\\DossierModel.cs",
+              "RelativeToolTip": "Repair.Business\\Models\\DossierModel.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAkwFcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T23:26:51.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "DossierController.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\RepairAPI\\Controllers\\DossierController.cs",
               "RelativeDocumentMoniker": "RepairAPI\\Controllers\\DossierController.cs",
@@ -402,43 +509,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DossierModel.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Business\\Models\\DossierModel.cs",
-              "RelativeDocumentMoniker": "Repair.Business\\Models\\DossierModel.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Business\\Models\\DossierModel.cs",
-              "RelativeToolTip": "Repair.Business\\Models\\DossierModel.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAuwCcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T23:26:51.456Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DocumentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Business\\Repository\\DocumentRepository.cs",
-              "RelativeDocumentMoniker": "Repair.Business\\Repository\\DocumentRepository.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Business\\Repository\\DocumentRepository.cs",
-              "RelativeToolTip": "Repair.Business\\Repository\\DocumentRepository.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAAABQAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T12:50:20.465Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UtilisateurController.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\RepairAPI\\Controllers\\UtilisateurController.cs",
-              "RelativeDocumentMoniker": "RepairAPI\\Controllers\\UtilisateurController.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\RepairAPI\\Controllers\\UtilisateurController.cs",
-              "RelativeToolTip": "RepairAPI\\Controllers\\UtilisateurController.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAAABAAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T01:40:44.343Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "DocumentController.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\RepairAPI\\Controllers\\DocumentController.cs",
               "RelativeDocumentMoniker": "RepairAPI\\Controllers\\DocumentController.cs",
@@ -450,7 +521,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "DossierStatusController.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\RepairAPI\\Controllers\\DossierStatusController.cs",
               "RelativeDocumentMoniker": "RepairAPI\\Controllers\\DossierStatusController.cs",
@@ -462,7 +533,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "IDocumentRepository.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Business\\Interfaces\\IDocumentRepository.cs",
               "RelativeDocumentMoniker": "Repair.Business\\Interfaces\\IDocumentRepository.cs",
@@ -474,7 +545,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "EventController.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\RepairAPI\\Controllers\\EventController.cs",
               "RelativeDocumentMoniker": "RepairAPI\\Controllers\\EventController.cs",
@@ -486,7 +557,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "Document.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Database\\Entities\\Document.cs",
               "RelativeDocumentMoniker": "Repair.Database\\Entities\\Document.cs",
@@ -498,7 +569,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "EventRepository.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Business\\Repository\\EventRepository.cs",
               "RelativeDocumentMoniker": "Repair.Business\\Repository\\EventRepository.cs",
@@ -510,19 +581,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IUtilisateurRepository.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Business\\Interfaces\\IUtilisateurRepository.cs",
-              "RelativeDocumentMoniker": "Repair.Business\\Interfaces\\IUtilisateurRepository.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Business\\Interfaces\\IUtilisateurRepository.cs",
-              "RelativeToolTip": "Repair.Business\\Interfaces\\IUtilisateurRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T01:40:32.668Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "IDelegationRepository.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Business\\Interfaces\\IDelegationRepository.cs",
               "RelativeDocumentMoniker": "Repair.Business\\Interfaces\\IDelegationRepository.cs",
@@ -534,7 +593,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "DocumentModel.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Business\\Models\\DocumentModel.cs",
               "RelativeDocumentMoniker": "Repair.Business\\Models\\DocumentModel.cs",
@@ -546,19 +605,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\RepairAPI\\Program.cs",
-              "RelativeDocumentMoniker": "RepairAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\RepairAPI\\Program.cs",
-              "RelativeToolTip": "RepairAPI\\Program.cs",
-              "ViewState": "AQIAAEUAAAAAAAAAAAAkwFIAAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T00:08:54.707Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "DatabaseContext.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Database\\DatabaseContext.cs",
               "RelativeDocumentMoniker": "Repair.Database\\DatabaseContext.cs",
@@ -570,7 +617,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "IDossierRepository.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Business\\Interfaces\\IDossierRepository.cs",
               "RelativeDocumentMoniker": "Repair.Business\\Interfaces\\IDossierRepository.cs",
@@ -582,19 +629,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "UtilisateurRepository.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Business\\Repository\\UtilisateurRepository.cs",
-              "RelativeDocumentMoniker": "Repair.Business\\Repository\\UtilisateurRepository.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Business\\Repository\\UtilisateurRepository.cs",
-              "RelativeToolTip": "Repair.Business\\Repository\\UtilisateurRepository.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAAAEQAAABIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T10:27:24.084Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "DelegationController.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\RepairAPI\\Controllers\\DelegationController.cs",
               "RelativeDocumentMoniker": "RepairAPI\\Controllers\\DelegationController.cs",
@@ -606,7 +641,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "DossierStatusRepository.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Business\\Repository\\DossierStatusRepository.cs",
               "RelativeDocumentMoniker": "Repair.Business\\Repository\\DossierStatusRepository.cs",
@@ -618,7 +653,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "IObjetRepository.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Business\\Interfaces\\IObjetRepository.cs",
               "RelativeDocumentMoniker": "Repair.Business\\Interfaces\\IObjetRepository.cs",
@@ -630,7 +665,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "CategorieRepository.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Business\\Repository\\CategorieRepository.cs",
               "RelativeDocumentMoniker": "Repair.Business\\Repository\\CategorieRepository.cs",
@@ -642,7 +677,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 87,
               "Title": "20240424123829_hhj.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Database\\Migrations\\20240424123829_hhj.cs",
               "RelativeDocumentMoniker": "Repair.Database\\Migrations\\20240424123829_hhj.cs",
@@ -654,7 +689,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "Event.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Database\\Entities\\Event.cs",
               "RelativeDocumentMoniker": "Repair.Database\\Entities\\Event.cs",
@@ -666,7 +701,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "UtilisateurModel.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Business\\Models\\UtilisateurModel.cs",
               "RelativeDocumentMoniker": "Repair.Business\\Models\\UtilisateurModel.cs",
@@ -678,7 +713,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "TypeRendezVous.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Database\\Entities\\TypeRendezVous.cs",
               "RelativeDocumentMoniker": "Repair.Database\\Entities\\TypeRendezVous.cs",
@@ -690,7 +725,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "IEventRepository.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Business\\Interfaces\\IEventRepository.cs",
               "RelativeDocumentMoniker": "Repair.Business\\Interfaces\\IEventRepository.cs",
@@ -702,7 +737,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 88,
               "Title": "RendezVousModel.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Business\\Models\\RendezVousModel.cs",
               "RelativeDocumentMoniker": "Repair.Business\\Models\\RendezVousModel.cs",
@@ -714,7 +749,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "GouvernoratRepository.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Business\\Repository\\GouvernoratRepository.cs",
               "RelativeDocumentMoniker": "Repair.Business\\Repository\\GouvernoratRepository.cs",
@@ -726,7 +761,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "DelegationRepository.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Business\\Repository\\DelegationRepository.cs",
               "RelativeDocumentMoniker": "Repair.Business\\Repository\\DelegationRepository.cs",
@@ -738,7 +773,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "CauseRepository.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Business\\Repository\\CauseRepository.cs",
               "RelativeDocumentMoniker": "Repair.Business\\Repository\\CauseRepository.cs",
@@ -750,7 +785,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 85,
               "Title": "20240422224745_ERD.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Database\\Migrations\\20240422224745_ERD.cs",
               "RelativeDocumentMoniker": "Repair.Database\\Migrations\\20240422224745_ERD.cs",
@@ -762,7 +797,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "TypeRendezVousController.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\RepairAPI\\Controllers\\TypeRendezVousController.cs",
               "RelativeDocumentMoniker": "RepairAPI\\Controllers\\TypeRendezVousController.cs",
@@ -774,7 +809,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "DelegationModel.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Business\\Models\\DelegationModel.cs",
               "RelativeDocumentMoniker": "Repair.Business\\Models\\DelegationModel.cs",
@@ -786,7 +821,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "CompetenceRepository.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Business\\Repository\\CompetenceRepository.cs",
               "RelativeDocumentMoniker": "Repair.Business\\Repository\\CompetenceRepository.cs",
@@ -798,7 +833,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 86,
               "Title": "20240422191603_ER.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Database\\Migrations\\20240422191603_ER.cs",
               "RelativeDocumentMoniker": "Repair.Database\\Migrations\\20240422191603_ER.cs",
@@ -810,7 +845,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "CauseController.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\RepairAPI\\Controllers\\CauseController.cs",
               "RelativeDocumentMoniker": "RepairAPI\\Controllers\\CauseController.cs",
@@ -822,7 +857,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "Gouvernorat.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Database\\Entities\\Gouvernorat.cs",
               "RelativeDocumentMoniker": "Repair.Database\\Entities\\Gouvernorat.cs",
@@ -834,7 +869,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "Delegation.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Database\\Entities\\Delegation.cs",
               "RelativeDocumentMoniker": "Repair.Database\\Entities\\Delegation.cs",
@@ -846,7 +881,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "Utilisateur.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Database\\Entities\\Utilisateur.cs",
               "RelativeDocumentMoniker": "Repair.Database\\Entities\\Utilisateur.cs",
@@ -858,7 +893,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "ICauseRepository.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Business\\Interfaces\\ICauseRepository.cs",
               "RelativeDocumentMoniker": "Repair.Business\\Interfaces\\ICauseRepository.cs",
@@ -870,7 +905,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "ITypeBatimentRepository.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Business\\Interfaces\\ITypeBatimentRepository.cs",
               "RelativeDocumentMoniker": "Repair.Business\\Interfaces\\ITypeBatimentRepository.cs",
@@ -882,7 +917,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "IMatiereRepository.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Business\\Interfaces\\IMatiereRepository.cs",
               "RelativeDocumentMoniker": "Repair.Business\\Interfaces\\IMatiereRepository.cs",
@@ -894,7 +929,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "ITypeRendezVousRepository.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Business\\Interfaces\\ITypeRendezVousRepository.cs",
               "RelativeDocumentMoniker": "Repair.Business\\Interfaces\\ITypeRendezVousRepository.cs",
@@ -906,7 +941,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "ILocalisationRepository.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Business\\Interfaces\\ILocalisationRepository.cs",
               "RelativeDocumentMoniker": "Repair.Business\\Interfaces\\ILocalisationRepository.cs",
@@ -918,7 +953,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "IDossierStatusRepository.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Business\\Interfaces\\IDossierStatusRepository.cs",
               "RelativeDocumentMoniker": "Repair.Business\\Interfaces\\IDossierStatusRepository.cs",
@@ -930,7 +965,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "IGouvernoratRepository.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Business\\Interfaces\\IGouvernoratRepository.cs",
               "RelativeDocumentMoniker": "Repair.Business\\Interfaces\\IGouvernoratRepository.cs",
@@ -942,7 +977,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 79,
               "Title": "20240419212304_GTJR.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Database\\Migrations\\20240419212304_GTJR.cs",
               "RelativeDocumentMoniker": "Repair.Database\\Migrations\\20240419212304_GTJR.cs",
@@ -954,7 +989,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 80,
               "Title": "20240419211051_GTJ.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Database\\Migrations\\20240419211051_GTJ.cs",
               "RelativeDocumentMoniker": "Repair.Database\\Migrations\\20240419211051_GTJ.cs",
@@ -966,7 +1001,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 81,
               "Title": "20240419205648_GTPLM.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Database\\Migrations\\20240419205648_GTPLM.cs",
               "RelativeDocumentMoniker": "Repair.Database\\Migrations\\20240419205648_GTPLM.cs",
@@ -978,7 +1013,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 82,
               "Title": "20240419203114_GTPL.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Database\\Migrations\\20240419203114_GTPL.cs",
               "RelativeDocumentMoniker": "Repair.Database\\Migrations\\20240419203114_GTPL.cs",
@@ -990,7 +1025,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 83,
               "Title": "20240419201438_GTP.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Database\\Migrations\\20240419201438_GTP.cs",
               "RelativeDocumentMoniker": "Repair.Database\\Migrations\\20240419201438_GTP.cs",
@@ -1002,7 +1037,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 84,
               "Title": "20240419195917_GT.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Database\\Migrations\\20240419195917_GT.cs",
               "RelativeDocumentMoniker": "Repair.Database\\Migrations\\20240419195917_GT.cs",
@@ -1014,7 +1049,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "TypeRendezVousRepository.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Business\\Repository\\TypeRendezVousRepository.cs",
               "RelativeDocumentMoniker": "Repair.Business\\Repository\\TypeRendezVousRepository.cs",
@@ -1026,7 +1061,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "DossierRepository.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\AppData\\Local\\SourceServer\\ccd792fee8f04978e1b38f39c607e28a843d1f67ab5855d6073411ee92fecf48\\Repair.Business\\Repository\\DossierRepository.cs",
               "RelativeDocumentMoniker": "..\\..\\AppData\\Local\\SourceServer\\ccd792fee8f04978e1b38f39c607e28a843d1f67ab5855d6073411ee92fecf48\\Repair.Business\\Repository\\DossierRepository.cs",
@@ -1039,7 +1074,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "DossierStatus.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Database\\Entities\\DossierStatus.cs",
               "RelativeDocumentMoniker": "Repair.Database\\Entities\\DossierStatus.cs",
@@ -1051,7 +1086,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "MatiereRepository.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Business\\Repository\\MatiereRepository.cs",
               "RelativeDocumentMoniker": "Repair.Business\\Repository\\MatiereRepository.cs",
@@ -1063,7 +1098,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "ObjetRepository.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Business\\Repository\\ObjetRepository.cs",
               "RelativeDocumentMoniker": "Repair.Business\\Repository\\ObjetRepository.cs",
@@ -1075,7 +1110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 49,
               "Title": "MatiereController.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\RepairAPI\\Controllers\\MatiereController.cs",
               "RelativeDocumentMoniker": "RepairAPI\\Controllers\\MatiereController.cs",
@@ -1087,7 +1122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 50,
               "Title": "Categorie.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Database\\Entities\\Categorie.cs",
               "RelativeDocumentMoniker": "Repair.Database\\Entities\\Categorie.cs",
@@ -1099,7 +1134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 78,
               "Title": "20240417135053_FT.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Database\\Migrations\\20240417135053_FT.cs",
               "RelativeDocumentMoniker": "Repair.Database\\Migrations\\20240417135053_FT.cs",
@@ -1111,7 +1146,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 51,
               "Title": "LocalisationRepository.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Business\\Repository\\LocalisationRepository.cs",
               "RelativeDocumentMoniker": "Repair.Business\\Repository\\LocalisationRepository.cs",
@@ -1123,7 +1158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 52,
               "Title": "Matiere.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Database\\Entities\\Matiere.cs",
               "RelativeDocumentMoniker": "Repair.Database\\Entities\\Matiere.cs",
@@ -1135,7 +1170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 53,
               "Title": "DossierStatusModel.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Business\\Models\\DossierStatusModel.cs",
               "RelativeDocumentMoniker": "Repair.Business\\Models\\DossierStatusModel.cs",
@@ -1147,7 +1182,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 54,
               "Title": "ItemModel.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Business\\Models\\ItemModel.cs",
               "RelativeDocumentMoniker": "Repair.Business\\Models\\ItemModel.cs",
@@ -1159,7 +1194,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 77,
               "Title": "20240416220809_FG.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Database\\Migrations\\20240416220809_FG.cs",
               "RelativeDocumentMoniker": "Repair.Database\\Migrations\\20240416220809_FG.cs",
@@ -1171,7 +1206,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 55,
               "Title": "TypeDomageController.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\RepairAPI\\Controllers\\TypeDomageController.cs",
               "RelativeDocumentMoniker": "RepairAPI\\Controllers\\TypeDomageController.cs",
@@ -1183,7 +1218,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 56,
               "Title": "TypeBatimentController.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\RepairAPI\\Controllers\\TypeBatimentController.cs",
               "RelativeDocumentMoniker": "RepairAPI\\Controllers\\TypeBatimentController.cs",
@@ -1195,7 +1230,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 57,
               "Title": "ObjetController.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\RepairAPI\\Controllers\\ObjetController.cs",
               "RelativeDocumentMoniker": "RepairAPI\\Controllers\\ObjetController.cs",
@@ -1207,7 +1242,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 58,
               "Title": "LocalisationController.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\RepairAPI\\Controllers\\LocalisationController.cs",
               "RelativeDocumentMoniker": "RepairAPI\\Controllers\\LocalisationController.cs",
@@ -1219,7 +1254,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 59,
               "Title": "CategorieController.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\RepairAPI\\Controllers\\CategorieController.cs",
               "RelativeDocumentMoniker": "RepairAPI\\Controllers\\CategorieController.cs",
@@ -1231,7 +1266,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 60,
               "Title": "GouvernoratModel.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Business\\Models\\GouvernoratModel.cs",
               "RelativeDocumentMoniker": "Repair.Business\\Models\\GouvernoratModel.cs",
@@ -1243,7 +1278,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 61,
               "Title": "CompetenceModel.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Business\\Models\\CompetenceModel.cs",
               "RelativeDocumentMoniker": "Repair.Business\\Models\\CompetenceModel.cs",
@@ -1255,7 +1290,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 62,
               "Title": "GouvernoratController.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\RepairAPI\\Controllers\\GouvernoratController.cs",
               "RelativeDocumentMoniker": "RepairAPI\\Controllers\\GouvernoratController.cs",
@@ -1267,7 +1302,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 63,
               "Title": "ICompetenceRepository.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Business\\Interfaces\\ICompetenceRepository.cs",
               "RelativeDocumentMoniker": "Repair.Business\\Interfaces\\ICompetenceRepository.cs",
@@ -1279,7 +1314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 64,
               "Title": "Localisation.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Database\\Entities\\Localisation.cs",
               "RelativeDocumentMoniker": "Repair.Database\\Entities\\Localisation.cs",
@@ -1291,7 +1326,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 65,
               "Title": "CategorieComp.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Database\\Entities\\CategorieComp.cs",
               "RelativeDocumentMoniker": "Repair.Database\\Entities\\CategorieComp.cs",
@@ -1303,7 +1338,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 66,
               "Title": "Cause.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Database\\Entities\\Cause.cs",
               "RelativeDocumentMoniker": "Repair.Database\\Entities\\Cause.cs",
@@ -1315,7 +1350,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 76,
               "Title": "20240403001031_PP.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Database\\Migrations\\20240403001031_PP.cs",
               "RelativeDocumentMoniker": "Repair.Database\\Migrations\\20240403001031_PP.cs",
@@ -1327,7 +1362,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 67,
               "Title": "TypeDomage.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Database\\Entities\\TypeDomage.cs",
               "RelativeDocumentMoniker": "Repair.Database\\Entities\\TypeDomage.cs",
@@ -1339,7 +1374,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 70,
               "Title": "20240308233252_A1.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Database\\Migrations\\20240308233252_A1.cs",
               "RelativeDocumentMoniker": "Repair.Database\\Migrations\\20240308233252_A1.cs",
@@ -1351,7 +1386,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 68,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Business\\Class1.cs",
               "RelativeDocumentMoniker": "Repair.Business\\Class1.cs",
@@ -1363,7 +1398,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 69,
               "Title": "20240310210935_A4.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Database\\Migrations\\20240310210935_A4.cs",
               "RelativeDocumentMoniker": "Repair.Database\\Migrations\\20240310210935_A4.cs",
@@ -1375,7 +1410,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 71,
               "Title": "20240309185617_A2.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Database\\Migrations\\20240309185617_A2.cs",
               "RelativeDocumentMoniker": "Repair.Database\\Migrations\\20240309185617_A2.cs",
@@ -1387,7 +1422,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 73,
               "Title": "DatabaseContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Database\\Migrations\\DatabaseContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Repair.Database\\Migrations\\DatabaseContextModelSnapshot.cs",
@@ -1399,7 +1434,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 72,
               "Title": "20240310205446_A3.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Database\\Migrations\\20240310205446_A3.cs",
               "RelativeDocumentMoniker": "Repair.Database\\Migrations\\20240310205446_A3.cs",
@@ -1411,7 +1446,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 74,
               "Title": "RepairAPI.csproj",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\RepairAPI\\RepairAPI.csproj",
               "RelativeDocumentMoniker": "RepairAPI\\RepairAPI.csproj",
@@ -1423,7 +1458,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 75,
               "Title": "Repair.Business.csproj",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Business\\Repair.Business.csproj",
               "RelativeDocumentMoniker": "Repair.Business\\Repair.Business.csproj",
@@ -1432,18 +1467,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-03-10T18:01:58.684Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }
