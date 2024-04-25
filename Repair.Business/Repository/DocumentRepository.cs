@@ -1,4 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Repair.Business.Interfaces;
 using Repair.Business.Models;
 using Repair.Database;
@@ -18,25 +20,48 @@ namespace Repair.Business.Repository
             _databaseContext = databaseContext;
         }
 
-        public Document AddDocument(DocumentModel doc)
+
+        public Document AddDocument(string option, Guid optionId, Guid dossierId, IFormFile file)
         {
-            var newDoc = new Document()
+            // Vérifier si le fichier est valide
+            if (file == null || file.Length <= 0)
             {
-                Id = Guid.NewGuid(),
-                NomFichier = doc.NomFichier,
-                ContenuFichier = doc.ContenuFichier,
-                DateCreation = doc.DateCreation,
-                CreePar = doc.Email,
-                Option = doc.Option,
-                OptionId = doc.OptionId,
-                DossierId = doc.DossierId,
-                TypeDocument = doc.TypeDocument
-            };
+                // Gérer le cas où le fichier est invalide en retournant null
 
-            _databaseContext.Document.Add(newDoc);
-            _databaseContext.SaveChanges();
+                return null;
+            }
 
-            return newDoc;
+            // Utiliser un MemoryStream pour lire le contenu du fichier
+            using (var stream = new MemoryStream())
+            {
+                // Copier le contenu du fichier dans le MemoryStream (asynchrone)
+                file.CopyToAsync(stream); // Il manque ici un "await" pour attendre la fin de l'opération
+
+                // Convertir le contenu du MemoryStream en tableau d'octets
+                var fileContent = stream.ToArray();
+
+                // Créer un nouvel objet Document avec les informations fournies
+                var document = new Document
+                {
+                    Id = Guid.NewGuid(),
+                    NomFichier = file.FileName,
+                    ContenuFichier = fileContent,
+                    TypeDocument = file.ContentType,
+                    DateCreation = DateTime.Now,
+                    Option = option,
+                    OptionId = optionId,
+                    DossierId = dossierId
+                };
+
+                // Ajouter le document au contexte de base de données
+                _databaseContext.Document.Add(document);
+
+                // Enregistrer les modifications dans la base de données
+                _databaseContext.SaveChanges();
+
+                // Retourner l'objet document créé
+                return document;
+            }
         }
 
         public List<DocumentModel> GetDocumentsByDossier(Guid id)
