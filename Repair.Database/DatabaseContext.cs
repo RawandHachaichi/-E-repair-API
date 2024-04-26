@@ -25,6 +25,7 @@ namespace Repair.Database
         public DbSet<Matiere> Matiere { get; set; }
         public DbSet<Event> Event { get; set; }
         public DbSet<Document> Document { get; set; }
+        public DbSet<TypeDocument> TypeDocument { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

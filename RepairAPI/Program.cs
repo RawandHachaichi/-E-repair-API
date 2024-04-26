@@ -44,6 +44,8 @@ builder.Services.AddScoped<ITypeRendezVousRepository, TypeRendezVousRepository>(
 builder.Services.AddScoped<IDossierStatusRepository, DossierStatusRepository>();
 builder.Services.AddScoped<IEventRepository, EventRepository>();
 builder.Services.AddScoped<IDocumentRepository, DocumentRepository>();
+builder.Services.AddScoped<ITypeDocumentRepository, TypeDocumentRepository>();
+
 
 // Configuration de JWT Bearer Authentication si nécessaire
 // builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)

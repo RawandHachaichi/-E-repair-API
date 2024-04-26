@@ -21,21 +21,20 @@ namespace Repair.Business.Repository
         }
 
 
-        public Document AddDocument(string option, Guid optionId, Guid dossierId, IFormFile file)
+        public Document AddDocument(DocumentModel doc, IFormFile file)
         {
             // Vérifier si le fichier est valide
             if (file == null || file.Length <= 0)
             {
                 // Gérer le cas où le fichier est invalide en retournant null
-
                 return null;
             }
 
             // Utiliser un MemoryStream pour lire le contenu du fichier
             using (var stream = new MemoryStream())
             {
-                // Copier le contenu du fichier dans le MemoryStream (asynchrone)
-                file.CopyToAsync(stream); // Il manque ici un "await" pour attendre la fin de l'opération
+                // Copier le contenu du fichier dans le MemoryStream (synchrone)
+                file.CopyTo(stream);
 
                 // Convertir le contenu du MemoryStream en tableau d'octets
                 var fileContent = stream.ToArray();
@@ -46,11 +45,11 @@ namespace Repair.Business.Repository
                     Id = Guid.NewGuid(),
                     NomFichier = file.FileName,
                     ContenuFichier = fileContent,
-                    TypeDocument = file.ContentType,
-                    DateCreation = DateTime.Now,
-                    Option = option,
-                    OptionId = optionId,
-                    DossierId = dossierId
+                    TypeDocumentId = doc.TypeDocument.Id,
+                    DateCreation = doc.DateCreation,
+                    ExtensionDoc = doc.ExtensionDoc,
+                    DossierId = doc.DossierId,
+                    CreePar = doc.Email,
                 };
 
                 // Ajouter le document au contexte de base de données
@@ -64,9 +63,13 @@ namespace Repair.Business.Repository
             }
         }
 
+
+
+
         public List<DocumentModel> GetDocumentsByDossier(Guid id)
         {
-            var res = _databaseContext.Document.Where(x => x.DossierId == id)
+            var res = _databaseContext.Document.Include(x => x.TypeDocument).
+                Where(x => x.DossierId == id)
                 .Select(x => new DocumentModel()
                 {
                     Id = x.Id,
@@ -74,10 +77,8 @@ namespace Repair.Business.Repository
                     ContenuFichier = x.ContenuFichier,
                     DateCreation = x.DateCreation,
                     CreePar = x.CreePar,
-                    Option = x.Option,
-                    OptionId = x.OptionId,
-                    TypeDocument = x.TypeDocument,
-                    DossierId = x.DossierId
+                    TypeDocument = new ItemModel { Id = (Guid)x.TypeDocumentId, Nom = x.TypeDocument.Nom },
+                    ExtensionDoc = x.ExtensionDoc,
                 }).ToList();
             return res;
         }
@@ -91,5 +92,8 @@ namespace Repair.Business.Repository
                 _databaseContext.SaveChanges();
             }
         }
+
     }
+
+    
 }

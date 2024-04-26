@@ -7,7 +7,7 @@ namespace Repair.Business.Interfaces
 {
     public interface IDocumentRepository
     {
-        public Document AddDocument(string option, Guid optionId, Guid dossierId, IFormFile file);
+        public Document AddDocument(DocumentModel doc, IFormFile file);
         public List<DocumentModel> GetDocumentsByDossier(Guid id);
         public  void RemoveDocument(Guid id);
     }

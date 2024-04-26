@@ -163,29 +163,25 @@ namespace Repair.Database.Migrations
                     b.Property<DateTime?>("DateCreation")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime?>("DerniereModification")
-                        .HasColumnType("datetime2");
-
                     b.Property<Guid?>("DossierId")
                         .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("ExtensionDoc")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("NomFichier")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Option")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<Guid?>("OptionId")
+                    b.Property<Guid>("TypeDocumentId")
                         .HasColumnType("uniqueidentifier");
-
-                    b.Property<string>("TypeDocument")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
                     b.HasIndex("DossierId");
+
+                    b.HasIndex("TypeDocumentId");
 
                     b.ToTable("Document");
                 });
@@ -319,9 +315,6 @@ namespace Repair.Database.Migrations
 
                     b.Property<DateTime?>("Start")
                         .HasColumnType("datetime2");
-
-                    b.Property<string>("Title")
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<Guid>("TypeRendezVousId")
                         .HasColumnType("uniqueidentifier");
@@ -472,6 +465,28 @@ namespace Repair.Database.Migrations
                     b.ToTable("TypeBatiment");
                 });
 
+            modelBuilder.Entity("Repair.Database.Entities.TypeDocument", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("CreePar")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("DateCreation")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Nom")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("TypeDocument");
+                });
+
             modelBuilder.Entity("Repair.Database.Entities.TypeDomage", b =>
                 {
                     b.Property<Guid>("Id")
@@ -613,7 +628,15 @@ namespace Repair.Database.Migrations
                         .WithMany()
                         .HasForeignKey("DossierId");
 
+                    b.HasOne("Repair.Database.Entities.TypeDocument", "TypeDocument")
+                        .WithMany()
+                        .HasForeignKey("TypeDocumentId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.Navigation("Dossier");
+
+                    b.Navigation("TypeDocument");
                 });
 
             modelBuilder.Entity("Repair.Database.Entities.Dossier", b =>

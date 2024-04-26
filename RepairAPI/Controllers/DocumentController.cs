@@ -18,10 +18,10 @@ namespace RepairAPI.Controllers
             _IDocumentRepository = DocumentRepository;
         }
 
-        [HttpPost("/optionId/option/dossierId/file")]
-        public Document AddDocument(string option, Guid optionId, Guid dossierId, IFormFile file)
+        [HttpPost]
+        public Document AddDocument(DocumentModel doc, IFormFile file)
         {
-            return _IDocumentRepository.AddDocument(option, optionId,dossierId,file);
+            return _IDocumentRepository.AddDocument(doc,file);
         }
 
         [HttpGet("/GetDocument/{id})")]
