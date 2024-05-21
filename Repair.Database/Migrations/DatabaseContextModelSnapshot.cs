@@ -22,6 +22,36 @@ namespace Repair.Database.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
+            modelBuilder.Entity("Event", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<Guid?>("DossierId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime?>("End")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("Start")
+                        .HasColumnType("datetime2");
+
+                    b.Property<Guid>("TypeRendezVousId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("DossierId");
+
+                    b.HasIndex("TypeRendezVousId");
+
+                    b.ToTable("Event");
+                });
+
             modelBuilder.Entity("Repair.Database.Entities.Categorie", b =>
                 {
                     b.Property<Guid>("Id")
@@ -301,36 +331,6 @@ namespace Repair.Database.Migrations
                     b.ToTable("DossierStatus");
                 });
 
-            modelBuilder.Entity("Repair.Database.Entities.Event", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<string>("Description")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime?>("End")
-                        .HasColumnType("datetime2");
-
-                    b.Property<DateTime?>("Start")
-                        .HasColumnType("datetime2");
-
-                    b.Property<Guid>("TypeRendezVousId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<Guid?>("UtilisateurId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("TypeRendezVousId");
-
-                    b.HasIndex("UtilisateurId");
-
-                    b.ToTable("Event");
-                });
-
             modelBuilder.Entity("Repair.Database.Entities.Gouvernorat", b =>
                 {
                     b.Property<Guid>("Id")
@@ -592,6 +592,23 @@ namespace Repair.Database.Migrations
                     b.ToTable("Utilisateurs");
                 });
 
+            modelBuilder.Entity("Event", b =>
+                {
+                    b.HasOne("Repair.Database.Entities.Dossier", "dossier")
+                        .WithMany()
+                        .HasForeignKey("DossierId");
+
+                    b.HasOne("Repair.Database.Entities.TypeRendezVous", "TypeRendezVous")
+                        .WithMany()
+                        .HasForeignKey("TypeRendezVousId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("TypeRendezVous");
+
+                    b.Navigation("dossier");
+                });
+
             modelBuilder.Entity("Repair.Database.Entities.CategorieComp", b =>
                 {
                     b.HasOne("Repair.Database.Entities.Categorie", "Categories")
@@ -700,23 +717,6 @@ namespace Repair.Database.Migrations
                     b.Navigation("TypeRendezVous");
 
                     b.Navigation("Utilisateurs");
-                });
-
-            modelBuilder.Entity("Repair.Database.Entities.Event", b =>
-                {
-                    b.HasOne("Repair.Database.Entities.TypeRendezVous", "TypeRendezVous")
-                        .WithMany()
-                        .HasForeignKey("TypeRendezVousId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Repair.Database.Entities.Utilisateur", "utilisateur")
-                        .WithMany()
-                        .HasForeignKey("UtilisateurId");
-
-                    b.Navigation("TypeRendezVous");
-
-                    b.Navigation("utilisateur");
                 });
 
             modelBuilder.Entity("Repair.Database.Entities.ReparateurCompetence", b =>

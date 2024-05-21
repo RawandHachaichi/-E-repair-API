@@ -6209,11 +6209,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\RepairAPI\\RepairAPI.csproj",
+      "projectUniqueName": "C:\\Users\\LENOVO\\Downloads\\backend3\\RepairAPI\\RepairAPI.csproj",
       "projectName": "RepairAPI",
-      "projectPath": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\RepairAPI\\RepairAPI.csproj",
+      "projectPath": "C:\\Users\\LENOVO\\Downloads\\backend3\\RepairAPI\\RepairAPI.csproj",
       "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\RepairAPI\\obj\\",
+      "outputPath": "C:\\Users\\LENOVO\\Downloads\\backend3\\RepairAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6230,11 +6230,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Business\\Repair.Business.csproj": {
-              "projectPath": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Business\\Repair.Business.csproj"
+            "C:\\Users\\LENOVO\\Downloads\\backend3\\Repair.Business\\Repair.Business.csproj": {
+              "projectPath": "C:\\Users\\LENOVO\\Downloads\\backend3\\Repair.Business\\Repair.Business.csproj"
             },
-            "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Database\\Repair.Database.csproj": {
-              "projectPath": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Database\\Repair.Database.csproj"
+            "C:\\Users\\LENOVO\\Downloads\\backend3\\Repair.Database\\Repair.Database.csproj": {
+              "projectPath": "C:\\Users\\LENOVO\\Downloads\\backend3\\Repair.Database\\Repair.Database.csproj"
             }
           }
         }

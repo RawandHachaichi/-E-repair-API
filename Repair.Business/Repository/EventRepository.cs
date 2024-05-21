@@ -22,14 +22,17 @@ namespace Repair.Business.Repository
 
         public Event AddEvent(RendezVousModel eve)
         {
+
             var newEvent = new Event()
+           
             {
                 Id = Guid.NewGuid(),
                 End = eve.End,
                 Start = eve.Start,
                 Description = eve.Description,
                 TypeRendezVousId = eve.TypeRendezVous.Id,
-                UtilisateurId = eve.UserId,
+                DossierId = eve.DossierId,
+           
             };
 
             _databaseContext.Event.Add(newEvent);
@@ -38,31 +41,83 @@ namespace Repair.Business.Repository
 
             return newEvent;
         }
+        /*public Event Planifier(RendezVousModel eve, Guid? statusId)
+        {
+            var Statut = _databaseContext.Dossiers
+              
+                .FirstOrDefault(x => x.DossierStatusId == statusId);
+
+
+            if (Statut != null)
+            {
+                // Création d'un nouvel événement
+                var newEvent = new Event()
+                {
+                    Id = Guid.NewGuid(),
+                    End = eve.End,
+                    Start = eve.Start,
+                    Description = eve.Description,
+                    TypeRendezVousId = eve.TypeRendezVous.Id,
+                    DossierId = eve.Id, // Utilisation de l'ID du dossier récupéré
+                };
+
+
+                // Ajout du nouvel événement à la table Events
+                _databaseContext.Event.Add(newEvent);
+
+                // Sauvegarde des modifications dans la base de données
+                _databaseContext.SaveChanges();
+
+                return newEvent;
+            }
+
+            return null; // Statut de dossier rejeté non trouvé
+        }*/
+
 
 
         public List<RendezVousModel> GetEventsByUser(Guid id)
         {
             return _databaseContext.Event.Include(x => x.TypeRendezVous)
-                    .Where(x => x.UtilisateurId == id).Select(x => new RendezVousModel()
+                .Include(x => x.dossier)
+                    .Where(x => x.dossier.UtilisateurId == id).Select(x => new RendezVousModel()
                     {
                         Id = x.Id,
-                        UserId = x.UtilisateurId,
                         Description = x.Description,
                         End = x.End,
                         Start = x.Start,
-                        TypeRendezVous = new ItemModel() { Id = x.TypeRendezVousId, Nom = x.TypeRendezVous.Nom },
+                        TypeRendezVous = new ItemModel { Id = x.TypeRendezVousId, Nom = x.TypeRendezVous.Nom },
+
+                    }
+                    ).ToList();
+        }
+        public List<RendezVousModel> GetEventsByDossier(Guid id)
+        {
+            return _databaseContext.Event.Include(x => x.TypeRendezVous)
+
+                    .Where(x => x.DossierId == id).Select(x => new RendezVousModel()
+                    {
+                        Id = x.Id,
+                        Description = x.Description,
+                        End = x.End,
+                        Start = x.Start,
+                        TypeRendezVous = new ItemModel { Id = x.TypeRendezVousId, Nom = x.TypeRendezVous.Nom },
 
                     }
                     ).ToList();
         }
 
 
-        public void RemoveEvent(Guid id)
+        public void RemoveEvent(Guid userId)
         {
-            var even = _databaseContext.Event.Where(x => x.UtilisateurId == id).FirstOrDefault();
-            _databaseContext.Event.Remove(even);
+            var even = _databaseContext.Event.Where(x => x.dossier.UtilisateurId == userId).FirstOrDefault();
+            if (even != null)
+            {
 
-            _databaseContext.SaveChanges();
+                _databaseContext.Event.Remove(even);
+
+                _databaseContext.SaveChanges();
+            }
         }
 
 

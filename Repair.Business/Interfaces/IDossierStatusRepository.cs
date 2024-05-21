@@ -10,5 +10,6 @@ namespace Repair.Business.Interfaces
     public interface IDossierStatusRepository
     {
         public List<DossierStatusModel> GetStatus();
+       
     }
 }

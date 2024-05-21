@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aTF7afbWwnzQH/1VCr9jB8wrJixEEqOtcSS4gc6qQjRdCUBbRWAO4CHn8wGwbjktdVZcMtg+M7tN23EVO+Oz5Q==",
+  "dgSpecHash": "y8yhn3xpsLQQcFZpwu9yBRxZHdtAYWR4/Ip5RiMAHvI0k2v6X/pt1hINC2GE4SK529Eo7WafVIkXzSJ52S8wEg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\RepairAPI\\RepairAPI.csproj",
+  "projectFilePath": "C:\\Users\\LENOVO\\Downloads\\backend3\\RepairAPI\\RepairAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

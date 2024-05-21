@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Repair.Database.Entities;
 
 namespace Repair.Database
@@ -74,5 +75,22 @@ namespace Repair.Database
 
 
         }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            // Configurez le délai d'attente de la commande ici
+            IConfigurationRoot configuration = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("appsettings.json")
+                .Build();
+
+            string connectionString = configuration.GetConnectionString("SqlServerConnStr");
+
+            optionsBuilder.UseSqlServer(connectionString, options =>
+            {
+                options.CommandTimeout(60); // 60 secondes ou la valeur souhaitée
+            });
+        }
+
     }
 }

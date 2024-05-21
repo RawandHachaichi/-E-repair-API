@@ -26,7 +26,6 @@ namespace Repair.Business.Repository
             // Vérifier si le fichier est valide
             if (file == null || file.Length <= 0)
             {
-                // Gérer le cas où le fichier est invalide en retournant null
                 return null;
             }
 
@@ -43,13 +42,13 @@ namespace Repair.Business.Repository
                 var document = new Document
                 {
                     Id = Guid.NewGuid(),
-                    NomFichier = file.FileName,
+                    NomFichier = doc.NomFichier,
                     ContenuFichier = fileContent,
                     TypeDocumentId = doc.TypeDocument.Id,
-                    DateCreation = doc.DateCreation,
+                    DateCreation = DateTime.Now,
                     ExtensionDoc = doc.ExtensionDoc,
                     DossierId = doc.DossierId,
-                    CreePar = doc.Email,
+                    CreePar = doc.CreePar,
                 };
 
                 // Ajouter le document au contexte de base de données
@@ -62,6 +61,7 @@ namespace Repair.Business.Repository
                 return document;
             }
         }
+
 
 
 

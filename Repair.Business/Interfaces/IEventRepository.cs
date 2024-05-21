@@ -11,7 +11,9 @@ namespace Repair.Business.Interfaces
     public interface IEventRepository
     {
         public List<RendezVousModel> GetEventsByUser(Guid id);
+        public List<RendezVousModel> GetEventsByDossier(Guid id);
         public Event AddEvent(RendezVousModel eve);
-        public void RemoveEvent(Guid id);
+        public void RemoveEvent(Guid userId);
+        //public Event Planifier(RendezVousModel eve);
     }
 }

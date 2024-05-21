@@ -180,51 +180,22 @@ namespace Repair.Business.Repository
         }
 
         public void UpdateUser(UtilisateurModel user)
-
         {
             // Vérifier si l'utilisateur existe dans la base de données
-            var userToUpdate = _databaseContext.Utilisateurs.Where(x => x.Id == user.Id).FirstOrDefault();
-           
+            var userToUpdate = _databaseContext.Utilisateurs.FirstOrDefault(x => x.Id == user.Id);
+
             if (userToUpdate != null)
             {
-                var passwordHasher = new PasswordHasher<Utilisateur>();
-                var hashedPassword = passwordHasher.HashPassword(new Utilisateur(), userToUpdate.MotDePasse);
+                // Mettre à jour uniquement le nom et le prénom de l'utilisateur
+                userToUpdate.Nom = user.Nom;
+                userToUpdate.Prenom = user.Prenom;
 
-                var clientToUpdate = _databaseContext.Utilisateurs.Where(x => x.Id == userToUpdate.Id).FirstOrDefault();
-                    clientToUpdate.Nom= user.Nom;
-                    clientToUpdate.Prenom= user.Prenom;
-                    clientToUpdate.Age = user.Age;
-                    clientToUpdate.NumeroTelephone1 = user.NumTelephone1;
-                    clientToUpdate.NumeroTelephone2 = user.NumTelephone2;
-                    clientToUpdate.DelegationId= user.Delegations.Id;
-                    clientToUpdate.Rue= user.Rue;
-                    clientToUpdate.NumMaison = user.NumMaison;
-                    clientToUpdate.Email = user.Email;
-                    clientToUpdate.MotDePasse = hashedPassword;
-
-
-            }
-            if (userToUpdate.Role == "reparateur")
-            {
-                // Supprimer les compétences existantes du réparateur
-                var existingCompetences = _databaseContext.ReparateurCompetences.Where(rc => rc.UtilisateurId == userToUpdate.Id);
-                _databaseContext.ReparateurCompetences.RemoveRange(existingCompetences);
-
-                // Ajouter les nouvelles compétences du réparateur
-                foreach (var compId in user.Competences)
-                {
-                    var comp = new ReparateurCompetence()
-                    {
-                        CompetenceId = compId,
-                        UtilisateurId = userToUpdate.Id,
-                    };
-                    _databaseContext.ReparateurCompetences.Add(comp);
-                }
+                // Sauvegarder les modifications dans la base de données
+                _databaseContext.SaveChanges();
             }
 
-            // Sauvegarder les modifications dans la base de données
-            _databaseContext.SaveChanges();
 
         }
+
     }
 }

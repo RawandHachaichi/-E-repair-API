@@ -2138,11 +2138,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Database\\Repair.Database.csproj",
+      "projectUniqueName": "C:\\Users\\LENOVO\\Downloads\\backend3\\Repair.Database\\Repair.Database.csproj",
       "projectName": "Repair.Database",
-      "projectPath": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Database\\Repair.Database.csproj",
+      "projectPath": "C:\\Users\\LENOVO\\Downloads\\backend3\\Repair.Database\\Repair.Database.csproj",
       "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LENOVO\\Desktop\\RepairAPI\\Repair.Database\\obj\\",
+      "outputPath": "C:\\Users\\LENOVO\\Downloads\\backend3\\Repair.Database\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",

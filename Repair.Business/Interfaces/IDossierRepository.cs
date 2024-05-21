@@ -11,7 +11,11 @@ namespace Repair.Business.Interfaces
     public interface IDossierRepository
     {
         public Dossier AddDossier(ReclamationModel Dossier);
-        public List<DossierModel> GetDossierByUserId(Guid? UtilisateurId);
-        public List<DossierModel> GetDossierById(Guid? id);
+        public List<DossierModel> GetDossierByUserId(Guid? Utilisateurid, string role);
+        public DossierModel GetDossierById(Guid? id);
+        public void UpdateStatus(Guid? statusId, Guid? dossierId);
+        public void RejeterDossier(Guid? dossierId);
+        public void DeleteDossier(Guid? dossierId);
+
     }
 }

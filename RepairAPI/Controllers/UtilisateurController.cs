@@ -46,12 +46,14 @@ namespace RepairAPI.Controllers
             return res;
         }
 
-
         [HttpPut("/UpdateUser")]
         public void UpdateUser(UtilisateurModel user)
         {
-             _IUtilisateurRepository.UpdateUser(user);
+           
+                _IUtilisateurRepository.UpdateUser(user);
+               
         }
+
 
         [HttpDelete("/RemoveUser/{id}")]
 

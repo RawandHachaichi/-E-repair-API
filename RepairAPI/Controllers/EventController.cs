@@ -31,10 +31,24 @@ namespace RepairAPI.Controllers
             return _IEventRepository.AddEvent(eve);
         }
 
-        [HttpDelete]
-        public void DeleteEvent(Guid id)
+        [HttpDelete("/api/Event/{userId}")]
+        public void DeleteEvent(Guid userId)
         {
-             _IEventRepository.RemoveEvent(id);
+            _IEventRepository.RemoveEvent(userId);
         }
+
+
+        [HttpGet("/api/GetEventByDossier/{id}")]
+        public List<RendezVousModel> GetEventsByDossierI(Guid id)
+        {
+            return _IEventRepository.GetEventsByDossier(id);
+        }
+
+       /* [HttpPost("/api/Plan")]
+        public Event Planifier (RendezVousModel eve)
+        {
+            return _IEventRepository.Planifier(eve);
+        }*/
+
     }
 }

@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Repair.Business
-build_property.ProjectDir = C:\Users\LENOVO\source\repos\E-repair-API\RepairAPI\Repair.Business\
+build_property.ProjectDir = C:\Users\MSI\OneDrive\Bureau\backend3\Repair.Business\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

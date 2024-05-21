@@ -18,11 +18,17 @@ namespace RepairAPI.Controllers
             _IDocumentRepository = DocumentRepository;
         }
 
-        [HttpPost]
-        public Document AddDocument(DocumentModel doc, IFormFile file)
+        [HttpPost("/api/Document")]
+        public IActionResult AddDocument([FromForm] DocumentModel documentModel, IFormFile file)
         {
-            return _IDocumentRepository.AddDocument(doc,file);
+            var document = _IDocumentRepository.AddDocument(documentModel, file); // Passez le paramètre file
+            if (document == null)
+            {
+                return BadRequest("Le fichier est invalide.");
+            }
+            return Ok(document);
         }
+
 
         [HttpGet("/GetDocument/{id})")]
         public List<DocumentModel> GetDocumentsByDossier(Guid id)

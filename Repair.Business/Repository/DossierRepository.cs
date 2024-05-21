@@ -6,6 +6,7 @@ using Repair.Database;
 using Repair.Database.Entities;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.Eventing.Reader;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -69,16 +70,20 @@ namespace Repair.Business.Repository
             }
         }
 
-        public List<DossierModel> GetDossierByUserId(Guid? Utilisateurid)
+        public List<DossierModel> GetDossierByUserId(Guid? Utilisateurid , string role )
+
         {
-            var res = _databaseContext.Dossiers
+            if(role == "client") {
+                var  res = _databaseContext.Dossiers
                 .Include(x => x.DossierStatus)
+                 .Include(x => x.Categorie)
                 .Where(x => x.UtilisateurId == Utilisateurid)
                 .Select(x => new DossierModel()
                 {
                     Id = x.Id,
                     Urgent = (bool)x.Urgent ? "Oui" : "Non",
                     DossierStatus = new ItemModel { Id = (Guid)x.DossierStatusId, Nom = x.DossierStatus.Nom },
+                   Categorie = new ItemModel { Id = (Guid)x.CategorieId, Nom = x.Categorie.Nom },
                     DossierNumber = x.DossierNumber,
                     CreePar = x.CreePar,
                     DateCreation = x.DateCreation
@@ -86,10 +91,32 @@ namespace Repair.Business.Repository
                 .ToList();
 
             return res;
-        }
+            }
+            else
+            {
+                var res = _databaseContext.Dossiers
+               .Include(x => x.DossierStatus)
+                 .Include(x => x.Categorie)
+               .Where(x => x.ReparateurId == Utilisateurid)
+               .Select(x => new DossierModel()
+               {
+                   Id = x.Id,
+                   Urgent = (bool)x.Urgent ? "Oui" : "Non",
+                   DossierStatus = new ItemModel { Id = (Guid)x.DossierStatusId, Nom = x.DossierStatus.Nom },
+                   Categorie = new ItemModel { Id = (Guid)x.CategorieId, Nom = x.Categorie.Nom },
+                   DossierNumber = x.DossierNumber,
+                   CreePar = x.CreePar,
+                   DateCreation = x.DateCreation
+               })
+               .ToList();
 
-        public List<DossierModel> GetDossierById(Guid? id)
-        {
+                return res;
+            }
+
+        } 
+
+        public DossierModel GetDossierById(Guid? id)
+       {
             return _databaseContext.Dossiers
                 .Include(x => x.DossierStatus)
                 .Include(x => x.Matiere)
@@ -113,7 +140,7 @@ namespace Repair.Business.Repository
                     Description = x.Description,
                     DateCreation = x.DateCreation,
                     Cause = new ItemModel { Id = (Guid)x.Id, Nom = x.Cause.Nom },
-                    DossierStatus = new ItemModel { Id = (Guid)x.DossierStatusId, Nom = x.DossierStatus.Nom },
+                    DossierStatus = new ItemModel { Id = (Guid)x.DossierStatusId, Nom = x.DossierStatus.Nom,Code=x.DossierStatus.code },
                     Matiere = new ItemModel { Id = (Guid)x.MatiereId, Nom = x.Matiere.Nom },
                     Objet = new ItemModel { Id = (Guid)x.ObjetId, Nom = x.Objet.Nom },
                     Categorie = new ItemModel { Id = (Guid)x.CategorieId, Nom = x.Categorie.Nom },
@@ -138,10 +165,64 @@ namespace Repair.Business.Repository
                         NumTelephone1 = x.Utilisateurs.NumeroTelephone1,
                         NumTelephone2 = x.Utilisateurs.NumeroTelephone2,
                         Rue = x.Utilisateurs.Rue,
-                        ReparateurId = (Guid)x.ReparateurId
+                      
                     }
                 })
-                .ToList();
+                .FirstOrDefault();
         }
+
+
+
+        public void UpdateStatus(Guid? statusId, Guid? dossierId)
+        {
+            // Récupérer le dossier à mettre à jour
+            var dossierToUpdate = _databaseContext.Dossiers
+                .FirstOrDefault(x => x.Id == dossierId);
+
+            if (dossierToUpdate != null)
+            {
+                // Mettre à jour l'ID du statut
+                dossierToUpdate.DossierStatusId = statusId;
+
+                // Enregistrer les modifications dans la base de données
+                _databaseContext.SaveChanges();
+            }
+        }
+        public void RejeterDossier(Guid? dossierId)
+        {
+            var dossier = _databaseContext.Dossiers
+                .FirstOrDefault(x => x.Id == dossierId);
+
+            if (dossier != null)
+            {
+                dossier.ReparateurId = null;
+             
+
+                // Suppression de l'événement associé au dossier
+                var eventToDelete = _databaseContext.Event.FirstOrDefault(e => e.DossierId == dossierId);
+                if (eventToDelete != null)
+                {
+                    _databaseContext.Event.Remove(eventToDelete);
+                }
+
+                _databaseContext.SaveChanges();
+            }
+        }
+        public void DeleteDossier(Guid? dossierId)
+        {
+            _databaseContext.Event.RemoveRange(_databaseContext.Event.Where(x => x.DossierId == dossierId));
+           
+            // Ajoutez d'autres tables selon vos besoins
+
+            // Ensuite, supprimez le dossier lui-même
+            var doss = _databaseContext.Dossiers.FirstOrDefault(x => x.Id == dossierId);
+            if (doss != null)
+            {
+                _databaseContext.Dossiers.Remove(doss);
+                _databaseContext.SaveChanges();
+            }
+        }
+
+
     }
 }

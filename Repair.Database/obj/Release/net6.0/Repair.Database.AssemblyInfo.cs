@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Repair.Database")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c7065ee15dc92522eed679693175f18a7d0a79a7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee625f853e3d01344094fa397b8648c2b122dd68")]
 [assembly: System.Reflection.AssemblyProductAttribute("Repair.Database")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Repair.Database")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
